@@ -86,9 +86,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        { id: 1, title: "Step 1: Needs Assessment", description: "Dad fell last month and can't live alone anymore — we provide immediate assessment and safety-first planning to bring you peace of mind.", imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg" },
-        { id: 2, title: "Step 2: Logistical Management", description: "Downsizing an entire life's accumulation is overwhelming; we restore your home's value and simplify the process, ensuring family unity throughout.", imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg" },
-        { id: 3, title: "Step 3: Family Advocacy", description: "Living states away creates unnecessary stress; we serve as your local advocate to bridge the gap and maintain harmony for the whole family.", imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg" },
+        { id: 1, title: "Step 1: Needs Assessment", description: "Dad fell last month and can't live alone anymore — we provide immediate assessment and safety-first planning to bring you peace of mind.", imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=1" },
+        { id: 2, title: "Step 2: Logistical Management", description: "Downsizing an entire life's accumulation is overwhelming; we restore your home's value and simplify the process, ensuring family unity throughout.", imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=2" },
+        { id: 3, title: "Step 3: Family Advocacy", description: "Living states away creates unnecessary stress; we serve as your local advocate to bridge the gap and maintain harmony for the whole family.", imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=3" },
       ]}
       title="Simplifying Every Step of Your Parent’s Transition"
       description="Navigating a parent's major life transition is difficult. We specialize in managing the emotional and logistical heavy lifting with warmth and expertise."
