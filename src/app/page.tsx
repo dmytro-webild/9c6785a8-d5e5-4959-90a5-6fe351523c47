@@ -66,53 +66,53 @@ export default function LandingPage() {
       description="California-licensed Senior Transition Specialist serving Orange County, LA, Riverside & San Bernardino. Real estate. Placement. Downsizing. One expert. One seamless process."
       leftCarouselItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=1",
           imageAlt: "Family support consultation",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=2",
           imageAlt: "Caring transition support",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=3",
           imageAlt: "Seamless senior move",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=4",
           imageAlt: "Helping families forward",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=5",
           imageAlt: "Expert transition guidance",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=6",
           imageAlt: "Professional real estate care",
         },
       ]}
       rightCarouselItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=7",
           imageAlt: "Family care professional",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=8",
           imageAlt: "Senior community visit",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=9",
           imageAlt: "Seamless downsizing process",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=10",
           imageAlt: "Happy senior transition",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=11",
           imageAlt: "Trusted expert service",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=12",
           imageAlt: "Quality senior placement",
         },
       ]}
@@ -182,21 +182,21 @@ export default function LandingPage() {
           id: 1,
           title: "Safety & Health",
           description: "Dad fell last month and can't live alone anymore — but where do you even start? We can help.",
-          imageSrc: "http://img.b2bpic.net/free-vector/infographics-presentation-layout-template-with-business-people-silhouettes-icons_98292-4518.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/infographics-presentation-layout-template-with-business-people-silhouettes-icons_98292-4518.jpg?_wi=1",
           imageAlt: "Safety",
         },
         {
           id: 2,
           title: "Home Transition",
           description: "Mom's home is paid off but she hasn't touched the back rooms in years. We help you downsize with dignity. We can help.",
-          imageSrc: "http://img.b2bpic.net/free-vector/delivery-courier-people-icons-set_1284-17214.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/delivery-courier-people-icons-set_1284-17214.jpg?_wi=1",
           imageAlt: "Downsizing",
         },
         {
           id: 3,
           title: "Family Support",
           description: "You live 3 states away and your sister is burning out being the only one local. We bridge the gap. We can help.",
-          imageSrc: "http://img.b2bpic.net/free-vector/modern-productivity-concept-with-flat-design_23-2147968944.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/modern-productivity-concept-with-flat-design_23-2147968944.jpg?_wi=1",
           imageAlt: "Coordination",
         },
       ]}
@@ -217,7 +217,7 @@ export default function LandingPage() {
           handle: "Orange County",
           testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/shot-happy-50-year-old-retired-woman-with-freckles-gray-hair-posing-stylish-interior-background-wearing-white-shirt-smiling-broadly-front_343059-3758.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/shot-happy-50-year-old-retired-woman-with-freckles-gray-hair-posing-stylish-interior-background-wearing-white-shirt-smiling-broadly-front_343059-3758.jpg?_wi=1",
         },
         {
           id: "2",
@@ -225,7 +225,7 @@ export default function LandingPage() {
           handle: "Los Angeles",
           testimonial: "The combination of real estate and placement services was exactly what we needed for Mom.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg?_wi=1",
         },
         {
           id: "3",
@@ -249,7 +249,7 @@ export default function LandingPage() {
           handle: "Orange County",
           testimonial: "They provided the emotional support and logistical clarity our family desperately needed.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/shot-happy-50-year-old-retired-woman-with-freckles-gray-hair-posing-stylish-interior-background-wearing-white-shirt-smiling-broadly-front_343059-3758.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/shot-happy-50-year-old-retired-woman-with-freckles-gray-hair-posing-stylish-interior-background-wearing-white-shirt-smiling-broadly-front_343059-3758.jpg?_wi=2",
         },
       ]}
       showRating={true}
