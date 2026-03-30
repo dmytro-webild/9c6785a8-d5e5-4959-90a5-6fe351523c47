@@ -40,7 +40,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitDoubleCarousel
-      background={{ variant: "plain" }}
+      background={{ variant: "gradient-bars" }}
       title="When It's Time for Mom or Dad to Move — We Handle Everything."
       description="California-licensed Senior Transition Specialist serving Orange County, LA, Riverside & San Bernardino. Real estate. Placement. Downsizing. One expert. One seamless process."
       leftCarouselItems={[
@@ -60,7 +60,7 @@ export default function LandingPage() {
         { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=12", imageAlt: "Quality senior placement" },
       ]}
       buttons={[
-        { text: "Get Your Free Needs Assessment", href: "/contact" },
+        { text: "Claim Your Free Needs Assessment Now", href: "/contact" },
         { text: "See Our Process", href: "/how-it-works" },
       ]}
       avatars={[
