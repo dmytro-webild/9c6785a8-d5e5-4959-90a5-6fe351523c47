@@ -60,7 +60,7 @@ export default function LandingPage() {
         { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=12", imageAlt: "Quality senior placement" },
       ]}
       buttons={[
-        { text: "Schedule a Free Consultation", href: "/contact" },
+        { text: "Get Your Free Consultation", href: "/contact" },
         { text: "How It Works", href: "/how-it-works" },
       ]}
       avatars={[
