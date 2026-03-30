@@ -85,9 +85,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        { id: 1, title: "Safety & Health", description: "Dad fell last month and can't live alone anymore — but where do you even start? We can help.", imageSrc: "http://img.b2bpic.net/free-vector/infographics-presentation-layout-template-with-business-people-silhouettes-icons_98292-4518.jpg", imageAlt: "Safety" },
-        { id: 2, title: "Home Transition", description: "Mom's home is paid off but she hasn't touched the back rooms in years. We help you downsize with dignity. We can help.", imageSrc: "http://img.b2bpic.net/free-vector/delivery-courier-people-icons-set_1284-17214.jpg", imageAlt: "Downsizing" },
-        { id: 3, title: "Family Support", description: "You live 3 states away and your sister is burning out being the only one local. We bridge the gap. We can help.", imageSrc: "http://img.b2bpic.net/free-vector/modern-productivity-concept-with-flat-design_23-2147968944.jpg", imageAlt: "Coordination" },
+        { id: 1, title: "Safety & Health", description: "Dad fell last month and can't live alone anymore — we provide immediate assessment and safety-first planning to bring you peace of mind.", imageSrc: "http://img.b2bpic.net/free-vector/infographics-presentation-layout-template-with-business-people-silhouettes-icons_98292-4518.jpg", imageAlt: "Safety" },
+        { id: 2, title: "Home Transition", description: "Downsizing an entire life's accumulation is overwhelming; we restore your home's value and simplify the process, ensuring family unity throughout.", imageSrc: "http://img.b2bpic.net/free-vector/delivery-courier-people-icons-set_1284-17214.jpg", imageAlt: "Downsizing" },
+        { id: 3, title: "Family Support", description: "Living states away creates unnecessary stress; we serve as your local advocate to bridge the gap and maintain harmony for the whole family.", imageSrc: "http://img.b2bpic.net/free-vector/modern-productivity-concept-with-flat-design_23-2147968944.jpg", imageAlt: "Coordination" },
       ]}
       title="Is This You?"
       description="Navigating a parent's major life transition is difficult. We specialize in managing the emotional and logistical heavy lifting."
