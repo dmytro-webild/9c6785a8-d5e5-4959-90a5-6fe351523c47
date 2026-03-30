@@ -83,7 +83,7 @@ export default function LandingPage() {
           name: "Principal Specialist",
           role: "Owner & Lead",
           description: "Experienced licensed professional with deep compassion for Southern California families.",
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg?_wi=2",
         },
       ]}
       title="Meet the Team"

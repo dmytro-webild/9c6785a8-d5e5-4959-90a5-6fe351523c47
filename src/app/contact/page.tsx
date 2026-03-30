@@ -80,7 +80,7 @@ export default function LandingPage() {
         placeholder: "Tell us a little about your situation",
       }}
       mediaAnimation="slide-up"
-      imageSrc="http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=13"
       imageAlt="warm multi-generational family moments"
     />
   </div>

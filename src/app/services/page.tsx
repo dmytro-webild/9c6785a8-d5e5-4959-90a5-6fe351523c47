@@ -66,21 +66,21 @@ export default function LandingPage() {
           name: "Real Estate Services",
           price: "Top Dollar",
           variant: "Home Sale",
-          imageSrc: "http://img.b2bpic.net/free-vector/delivery-courier-people-icons-set_1284-17214.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/delivery-courier-people-icons-set_1284-17214.jpg?_wi=3",
         },
         {
           id: "sp",
           name: "Senior Placement",
           price: "Free",
           variant: "Placement",
-          imageSrc: "http://img.b2bpic.net/free-vector/infographics-presentation-layout-template-with-business-people-silhouettes-icons_98292-4518.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/infographics-presentation-layout-template-with-business-people-silhouettes-icons_98292-4518.jpg?_wi=3",
         },
         {
           id: "tm",
           name: "Transition Management",
           price: "Custom",
           variant: "Full Service",
-          imageSrc: "http://img.b2bpic.net/free-vector/flat-real-estate-infographic-template_23-2149009293.jpg",
+          imageSrc: "http://img.b2bpic.net/free-vector/flat-real-estate-infographic-template_23-2149009293.jpg?_wi=2",
         },
       ]}
       title="Comprehensive Services"
