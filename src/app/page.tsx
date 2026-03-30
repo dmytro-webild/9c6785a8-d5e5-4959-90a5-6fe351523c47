@@ -120,6 +120,7 @@ export default function LandingPage() {
       description={[
         "Moving a parent is not just a logistical task; it is an emotional journey.",        "Our mission is to guide you with transparency, respect, and deep expertise, ensuring your loved one's future is secure and comfortable."]}
       showBorder={true}
+      buttons={[{ text: "Meet Our Team & Licensing", href: "/about" }]} 
     />
   </div>
 
