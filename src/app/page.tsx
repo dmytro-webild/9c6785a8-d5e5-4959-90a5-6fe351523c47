@@ -8,6 +8,7 @@ import HeroSplitDoubleCarousel from '@/components/sections/hero/HeroSplitDoubleC
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
+import ContactCTA from '@/components/sections/contact/ContactCTA';
 
 export default function LandingPage() {
   return (
@@ -124,6 +125,16 @@ export default function LandingPage() {
       showBorder={true}
       buttons={[{ text: "Meet Our Team & Licensing", href: "/about" }]} 
     />
+  </div>
+
+  <div id="contact" data-section="contact">
+      <ContactCTA
+        tag="Get In Touch"
+        title="Start Your Gentle Transition Today"
+        description="We're here to listen, support, and handle the heavy lifting. Reach out whenever you're ready—we'll guide you through this, step by step."
+        buttons={[{ text: "Let's Talk Soon", href: "/contact" }]}
+        background={{ variant: "sparkles-gradient" }}
+      />
   </div>
 
   <div id="footer" data-section="footer">
