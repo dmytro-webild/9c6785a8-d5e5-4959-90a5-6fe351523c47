@@ -61,7 +61,7 @@ export default function LandingPage() {
       ]}
       buttons={[
         { text: "Get Your Free Consultation", href: "/contact" },
-        { text: "How It Works", href: "/how-it-works" },
+        { text: "See Our Process", href: "/how-it-works" },
       ]}
       avatars={[
         { src: "http://img.b2bpic.net/free-photo/shot-happy-50-year-old-retired-woman-with-freckles-gray-hair-posing-stylish-interior-background-wearing-white-shirt-smiling-broadly-front_343059-3758.jpg", alt: "Client 1" },
