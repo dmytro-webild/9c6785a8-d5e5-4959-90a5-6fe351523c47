@@ -89,7 +89,7 @@ export default function LandingPage() {
         { id: 2, title: "Home Transition", description: "Downsizing an entire life's accumulation is overwhelming; we restore your home's value and simplify the process, ensuring family unity throughout.", imageSrc: "http://img.b2bpic.net/free-vector/delivery-courier-people-icons-set_1284-17214.jpg", imageAlt: "Downsizing" },
         { id: 3, title: "Family Support", description: "Living states away creates unnecessary stress; we serve as your local advocate to bridge the gap and maintain harmony for the whole family.", imageSrc: "http://img.b2bpic.net/free-vector/modern-productivity-concept-with-flat-design_23-2147968944.jpg", imageAlt: "Coordination" },
       ]}
-      title="Is This You?"
+      title="We Make Your Parent’s Move Stress-Free and Simple"
       description="Navigating a parent's major life transition is difficult. We specialize in managing the emotional and logistical heavy lifting."
     />
   </div>
