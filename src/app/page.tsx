@@ -108,7 +108,7 @@ export default function LandingPage() {
         { id: "5", name: "Linda Thompson", handle: "Orange County", testimonial: "They provided the emotional support and logistical clarity our family desperately needed.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/shot-happy-50-year-old-retired-woman-with-freckles-gray-hair-posing-stylish-interior-background-wearing-white-shirt-smiling-broadly-front_343059-3758.jpg?_wi=2" },
       ]}
       showRating={true}
-      title="Trusted by Southern California Families"
+      title="What Our Families Say"
       description="See why families count on Palante Senior Transition Specialists for expert, compassionate care during major life transitions."
     />
   </div>
