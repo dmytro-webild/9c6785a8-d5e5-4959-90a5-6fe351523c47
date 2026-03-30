@@ -134,6 +134,7 @@ export default function LandingPage() {
         description="We're here to listen, support, and handle the heavy lifting. Reach out whenever you're ready—we'll guide you through this, step by step."
         buttons={[{ text: "Let's Talk Soon", href: "/contact" }]}
         background={{ variant: "sparkles-gradient" }}
+        useInvertedBackground={false}
       />
   </div>
 
