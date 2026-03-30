@@ -26,29 +26,17 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "How It Works",
-          id: "/how-it-works",
-        },
+          name: "How It Works",          id: "/how-it-works"},
         {
-          name: "Services",
-          id: "/services",
-        },
+          name: "Services",          id: "/services"},
         {
-          name: "About",
-          id: "/about",
-        },
+          name: "About",          id: "/about"},
         {
-          name: "Resources",
-          id: "/resources",
-        },
+          name: "Resources",          id: "/resources"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="Palante STS"
     />
@@ -59,16 +47,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       heading={[
         {
-          type: "text",
-          content: "What 'Palante' Means to Us",
-        },
+          type: "text",          content: "What 'Palante' Means to Us"},
         {
-          type: "image",
-          src: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",
-          alt: "Palante Meaning",
-        },
+          type: "image",          src: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg",          alt: "Palante Meaning"},
       ]}
     />
+    <div className="px-6 py-12 max-w-4xl mx-auto">
+      <p className="text-lg leading-relaxed text-gray-700">
+        My own mother's transition taught me how crucial an advocate is to prevent burnout and ensure a smooth move. I founded Palante STS to be that advocate for you and your family, treating every client with the same compassion I would expect for my own family.
+      </p>
+    </div>
   </div>
 
   <div id="team" data-section="team">
@@ -79,12 +67,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       members={[
         {
-          id: "t1",
-          name: "Principal Specialist",
-          role: "Owner & Lead",
-          description: "Experienced licensed professional with deep compassion for Southern California families.",
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg?_wi=2",
-        },
+          id: "t1",          name: "Principal Specialist",          role: "Owner & Lead",          description: "Experienced licensed professional with deep compassion for Southern California families.",          imageSrc: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg?_wi=2"},
       ]}
       title="Meet the Team"
       description="Highly trusted specialists committed to Southern California families."
@@ -97,45 +80,29 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "Home",
-              href: "/",
-            },
+              label: "Home",              href: "/"},
             {
-              label: "How It Works",
-              href: "/how-it-works",
-            },
+              label: "How It Works",              href: "/how-it-works"},
             {
-              label: "Services",
-              href: "/services",
-            },
+              label: "Services",              href: "/services"},
           ],
         },
         {
           items: [
             {
-              label: "About Us",
-              href: "/about",
-            },
+              label: "About Us",              href: "/about"},
             {
-              label: "Resources",
-              href: "/resources",
-            },
+              label: "Resources",              href: "/resources"},
             {
-              label: "Contact",
-              href: "/contact",
-            },
+              label: "Contact",              href: "/contact"},
           ],
         },
         {
           items: [
             {
-              label: "CA DRE# 00000000",
-              href: "#",
-            },
+              label: "CA DRE# 00000000",              href: "#"},
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
           ],
         },
       ]}
