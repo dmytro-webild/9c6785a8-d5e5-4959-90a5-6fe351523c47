@@ -3,9 +3,10 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FaqBase from '@/components/sections/faq/FaqBase';
-import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
+import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
+import { Home, Lightbulb, FileText, CheckCircle } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -37,17 +38,43 @@ export default function LandingPage() {
   </div>
 
   <div id="feature" data-section="feature">
-      <FeatureCardEight
+      <FeatureCardNine
+      showStepNumbers={true}
+      animationType="slide-up"
       textboxLayout="split"
       useInvertedBackground={false}
-      features={[
-        { id: 1, title: "Free Consultation", description: "We listen first — no pressure, no scripts. Just expert ears.", imageSrc: "http://img.b2bpic.net/free-vector/infographics-presentation-layout-template-with-business-people-silhouettes-icons_98292-4518.jpg?_wi=2", imageAlt: "Step 1"},
-        { id: 2, title: "Custom Transition Plan", description: "Every situation is different. Yours gets a custom roadmap.", imageSrc: "http://img.b2bpic.net/free-vector/modern-productivity-concept-with-flat-design_23-2147968944.jpg?_wi=2", imageAlt: "Step 2"},
-        { id: 3, title: "Full Execution", description: "We handle home sales, placement tours, and downsizing with you.", imageSrc: "http://img.b2bpic.net/free-vector/delivery-courier-people-icons-set_1284-17214.jpg?_wi=2", imageAlt: "Step 3"},
-        { id: 4, title: "Move-In Day", description: "From old home to new, fully set up and ready to enjoy.", imageSrc: "http://img.b2bpic.net/free-vector/flat-real-estate-infographic-template_23-2149009293.jpg?_wi=1", imageAlt: "Step 4"},
-      ]}
       title="Our 4-Step Process"
       description="We ensure your family transitions with clarity, confidence, and peace of mind through a predictable 4-step framework."
+      features={[
+        { 
+          id: 1, 
+          title: "Free Consultation", 
+          description: "We listen first — no pressure, no scripts. Just expert ears.", 
+          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=13" },
+          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=13" }
+        },
+        { 
+          id: 2, 
+          title: "Custom Transition Plan", 
+          description: "Every situation is different. Yours gets a custom roadmap.", 
+          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg" },
+          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg" }
+        },
+        { 
+          id: 3, 
+          title: "Full Execution", 
+          description: "We handle home sales, placement tours, and downsizing with you.", 
+          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg" },
+          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg" }
+        },
+        { 
+          id: 4, 
+          title: "Move-In Day", 
+          description: "From old home to new, fully set up and ready to enjoy.", 
+          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg" },
+          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg" }
+        },
+      ]}
     />
   </div>
 
