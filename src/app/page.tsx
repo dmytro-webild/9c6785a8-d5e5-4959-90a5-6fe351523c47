@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import HeroLogo from '@/components/sections/hero/HeroLogo';
+import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
@@ -40,15 +40,23 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroLogo
-      logoText="When It's Time for Mom or Dad to Move — We Handle Everything."
+      <HeroBillboardTestimonial
+      title="When It's Time for Mom or Dad to Move — We Handle Everything."
       description="California-licensed Senior Transition Specialist serving Orange County, LA, Riverside & San Bernardino. Real estate. Placement. Downsizing. One expert. One seamless process."
-      imageSrc="http://img.b2bpic.net/free-photo/professional-consultant-sitting-with-senior-adult-child-kitchen-table_482257-25143.jpg"
-      imageAlt="Consultant sitting with senior and adult child at kitchen table"
       buttons={[
         { text: "Schedule a Free Consultation", href: "/contact" },
         { text: "See Our Process", href: "/how-it-works" },
       ]}
+      avatars={[
+        { src: "https://img.b2bpic.net/free-photo/portrait-happy-senior-woman_23-2148560130.jpg", alt: "Client" },
+        { src: "https://img.b2bpic.net/free-photo/man-smiling-camera_23-2148560131.jpg", alt: "Client" },
+        { src: "https://img.b2bpic.net/free-photo/senior-woman-portrait_23-2148560132.jpg", alt: "Client" },
+        { src: "https://img.b2bpic.net/free-photo/older-man-portrait_23-2148560133.jpg", alt: "Client" },
+        { src: "https://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg", alt: "Client" }
+      ]}
+      avatarText="Trusted by families across SoCal"
+      imageSrc="http://img.b2bpic.net/free-photo/professional-consultant-sitting-with-senior-adult-child-kitchen-table_482257-25143.jpg"
+      imageAlt="Consultant sitting with senior and adult child at kitchen table"
       className="py-20"
     />
   </div>
