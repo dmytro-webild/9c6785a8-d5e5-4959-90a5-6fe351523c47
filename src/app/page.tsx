@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import HeroSplitDoubleCarousel from '@/components/sections/hero/HeroSplitDoubleCarousel';
+import HeroLogo from '@/components/sections/hero/HeroLogo';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
@@ -40,37 +40,16 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroSplitDoubleCarousel
-      background={{ variant: "gradient-bars" }}
-      title="When It's Time for Mom or Dad to Move — We Handle Everything."
+      <HeroLogo
+      logoText="When It's Time for Mom or Dad to Move — We Handle Everything."
       description="California-licensed Senior Transition Specialist serving Orange County, LA, Riverside & San Bernardino. Real estate. Placement. Downsizing. One expert. One seamless process."
-      leftCarouselItems={[
-        { imageSrc: "https://img.b2bpic.net/free-photo/family-walking-together-park-outdoor_23-2148560123.jpg?_wi=1", imageAlt: "Family support consultation" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/senior-people-using-digital-tablets_23-2149021234.jpg?_wi=1", imageAlt: "Caring transition support" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/group-senior-people-walking-park_23-2148560124.jpg?_wi=1", imageAlt: "Seamless senior move" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/happy-senior-people-living-together_23-2148765432.jpg?_wi=1", imageAlt: "Helping families forward" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-talking-caregiver_23-2148560125.jpg?_wi=1", imageAlt: "Expert transition guidance" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/happy-family-walking-park_23-2148560126.jpg?_wi=1", imageAlt: "Professional real estate care" },
-      ]}
-      rightCarouselItems={[
-        { imageSrc: "https://img.b2bpic.net/free-photo/happy-family-walking-park_23-2148560126.jpg?_wi=2", imageAlt: "Family care professional" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-talking-caregiver_23-2148560125.jpg?_wi=2", imageAlt: "Senior community visit" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/happy-senior-people-living-together_23-2148765432.jpg?_wi=2", imageAlt: "Seamless downsizing process" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/group-senior-people-walking-park_23-2148560124.jpg?_wi=2", imageAlt: "Happy senior transition" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/senior-people-using-digital-tablets_23-2149021234.jpg?_wi=2", imageAlt: "Trusted expert service" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/family-walking-together-park-outdoor_23-2148560123.jpg?_wi=2", imageAlt: "Quality senior placement" },
-      ]}
+      imageSrc="http://img.b2bpic.net/free-photo/professional-consultant-sitting-with-senior-adult-child-kitchen-table_482257-25143.jpg"
+      imageAlt="Consultant sitting with senior and adult child at kitchen table"
       buttons={[
         { text: "Schedule a Free Consultation", href: "/contact" },
         { text: "See Our Process", href: "/how-it-works" },
       ]}
-      marqueeItems={[
-        { type: "text", text: "Licensed" },
-        { type: "text", text: "Trusted" },
-        { type: "text", text: "Professional" },
-        { type: "text", text: "Compassionate" },
-        { type: "text", text: "Proven" },
-      ]}
+      className="py-20"
     />
   </div>
 
