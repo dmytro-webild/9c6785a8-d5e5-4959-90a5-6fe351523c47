@@ -72,6 +72,8 @@ export default function ServicesPage() {
               { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] },
               { title: "Legal", items: [{ label: "CA DRE# 01832704" }, { label: "Privacy Policy" }] },
             ]}
+            bottomLeftText="© 2024 Palante STS"
+            bottomRightText="All rights reserved"
           />
         </div>
       </ReactLenis>
