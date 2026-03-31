@@ -85,7 +85,7 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "CA DRE# 00000000",              href: "#"},
+              label: "CA DRE# 01832704",              href: "#"},
             {
               label: "Privacy Policy",              href: "#"},
           ],
