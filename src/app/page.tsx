@@ -106,7 +106,7 @@ export default function LandingPage() {
         tag="Get In Touch"
         title="Start Your Gentle Transition Today"
         description="We're here to listen, support, and handle the heavy lifting. Reach out whenever you're ready—we'll guide you through this, step by step."
-        buttons={[{ text: "Let's Talk Soon", href: "/contact" }]}
+        buttons={[{ text: "Schedule My Free Consultation", href: "/contact" }]}
         background={{ variant: "sparkles-gradient" }}
         useInvertedBackground={false}
       />
