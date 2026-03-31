@@ -44,9 +44,9 @@ export default function ServicesPage() {
             title="Comprehensive Services"
             description="One trusted professional handles the home sale, senior placement, and the physical move."
             features={[
-              { id: "1", title: "Real Estate Services", description: "Professional home sale coordination with compassion." },
-              { id: "2", title: "Senior Placement", description: "Expert assistance finding the right community." },
-              { id: "3", title: "Transition Management", description: "Full support through downsizing and moving." },
+              { id: "1", title: "Real Estate Services", description: "Professional home sale coordination with compassion.", imageSrc: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop" },
+              { id: "2", title: "Senior Placement", description: "Expert assistance finding the right community.", imageSrc: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop" },
+              { id: "3", title: "Transition Management", description: "Full support through downsizing and moving.", imageSrc: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" },
             ]}
           />
         </div>
