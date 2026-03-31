@@ -43,6 +43,8 @@ export default function LandingPage() {
       <HeroBillboardTestimonial
       title="When It's Time for Mom or Dad to Move — We Handle Everything."
       description="California-licensed Senior Transition Specialist serving Orange County, LA, Riverside & San Bernardino. Real estate. Placement. Downsizing. One expert. One seamless process."
+      background={{ variant: "plain" }}
+      testimonials={[]}
       buttons={[
         { text: "Schedule a Free Consultation", href: "/contact" },
         { text: "See Our Process", href: "/how-it-works" },
@@ -77,7 +79,7 @@ export default function LandingPage() {
 
   <div id="testimonial" data-section="testimonial">
       <TestimonialCardThirteen
-      carouselMode="auto"
+      showRating={true}
       animationType="none"
       textboxLayout="default"
       useInvertedBackground={false}
@@ -87,7 +89,6 @@ export default function LandingPage() {
         { id: "3", name: "Elena Rodriguez", handle: "Riverside County", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-portrait_23-2148560132.jpg" },
         { id: "4", name: "Robert Johnson", handle: "San Bernardino", testimonial: "One point of contact for the house sale, placement, and downsizing. An absolutely seamless experience.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/older-man-portrait_23-2148560133.jpg" },
       ]}
-      showRating={true}
       title="What Our Families Say"
       description="See why families count on Palante Senior Transition Specialists for expert, compassionate care during major life transitions."
     />
