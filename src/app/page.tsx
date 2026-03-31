@@ -42,7 +42,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardTestimonial
       title="When It's Time for Mom or Dad to Move — We Handle Everything."
-      description="California-licensed Senior Transition Specialist serving Orange County, LA, Riverside & San Bernardino. Real estate. Placement. Downsizing. One expert. One seamless process."
+      description="California-licensed Senior Transition Specialist serving Tustin, LA, Corona & San Bernardino. Real estate. Placement. Downsizing. One expert. One seamless process."
       background={{ variant: "plain" }}
       testimonials={[]}
       buttons={[
@@ -75,9 +75,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Sarah Miller", handle: "Orange County", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/portrait-happy-senior-woman_23-2148560130.jpg" },
+        { id: "1", name: "Sarah Miller", handle: "Tustin", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/portrait-happy-senior-woman_23-2148560130.jpg" },
         { id: "2", name: "David Chen", handle: "Los Angeles", testimonial: "The combination of real estate and placement services was exactly what we needed for Mom.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/man-smiling-camera_23-2148560131.jpg" },
-        { id: "3", name: "Elena Rodriguez", handle: "Riverside County", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-portrait_23-2148560132.jpg" },
+        { id: "3", name: "Elena Rodriguez", handle: "Corona", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-portrait_23-2148560132.jpg" },
         { id: "4", name: "Robert Johnson", handle: "San Bernardino", testimonial: "One point of contact for the house sale, placement, and downsizing. An absolutely seamless experience.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/older-man-portrait_23-2148560133.jpg" },
       ]}
       title="What Our Families Say"
