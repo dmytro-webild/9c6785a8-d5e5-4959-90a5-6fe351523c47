@@ -24,30 +24,12 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleApple
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "How It Works",
-          id: "/how-it-works",
-        },
-        {
-          name: "Services",
-          id: "/services",
-        },
-        {
-          name: "About",
-          id: "/about",
-        },
-        {
-          name: "Resources",
-          id: "/resources",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "How It Works", id: "/how-it-works" },
+        { name: "Services", id: "/services" },
+        { name: "About", id: "/about" },
+        { name: "Resources", id: "/resources" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Palante STS"
     />
@@ -59,27 +41,12 @@ export default function LandingPage() {
       title="Let's Talk"
       description="Most families tell us they wish they had called sooner. Whenever you're ready, we're here."
       inputs={[
-        {
-          name: "name",
-          type: "text",
-          placeholder: "Your Name",
-        },
-        {
-          name: "email",
-          type: "email",
-          placeholder: "Your Email",
-        },
-        {
-          name: "phone",
-          type: "tel",
-          placeholder: "Your Phone Number",
-        },
+        { name: "name", type: "text", placeholder: "Your Name" },
+        { name: "email", type: "email", placeholder: "Your Email" },
+        { name: "phone", type: "tel", placeholder: "Your Phone Number" },
       ]}
-      textarea={{
-        name: "situation",
-        placeholder: "Tell us a little about your situation",
-      }}
-      mediaAnimation="slide-up"
+      textarea={{ name: "situation", placeholder: "Tell us a little about your situation" }}
+      mediaAnimation="none"
       imageSrc="http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=13"
       imageAlt="warm multi-generational family moments"
     />
@@ -88,50 +55,9 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       columns={[
-        {
-          items: [
-            {
-              label: "Home",
-              href: "/",
-            },
-            {
-              label: "How It Works",
-              href: "/how-it-works",
-            },
-            {
-              label: "Services",
-              href: "/services",
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              label: "About Us",
-              href: "/about",
-            },
-            {
-              label: "Resources",
-              href: "/resources",
-            },
-            {
-              label: "Contact",
-              href: "/contact",
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              label: "CA DRE# 00000000",
-              href: "#",
-            },
-            {
-              label: "Privacy Policy",
-              href: "#",
-            },
-          ],
-        },
+        { items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
+        { items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
+        { items: [{ label: "CA DRE# 00000000", href: "#" }, { label: "Privacy Policy", href: "#" }] },
       ]}
       logoText="Palante STS"
     />
