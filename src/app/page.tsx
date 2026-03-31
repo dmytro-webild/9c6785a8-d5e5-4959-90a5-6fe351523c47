@@ -44,7 +44,14 @@ export default function LandingPage() {
       title="When It's Time for Mom or Dad to Move — We Handle Everything."
       description="California-licensed Senior Transition Specialist serving Orange, Los Angeles, Riverside, and San Bernardino counties, focusing on real estate, placement, and downsizing as one seamless process."
       background={{ variant: "plain" }}
-      testimonials={[]}
+      testimonials={[
+        {
+          name: "Sarah Miller",          handle: "Orange County",          testimonial: "Palante STS transformed a stressful transition into a seamless experience. Their care is unmatched.",          rating: 5
+        },
+        {
+          name: "David Chen",          handle: "Los Angeles",          testimonial: "They handled the real estate and placement with such empathy and expertise. Highly recommend.",          rating: 5
+        }
+      ]}
       buttons={[
         { text: "Schedule a Free Consultation", href: "/contact" },
         { text: "See Our Process", href: "/how-it-works" },
