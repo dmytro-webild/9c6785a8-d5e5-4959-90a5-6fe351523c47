@@ -42,7 +42,7 @@ export default function ServicesPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             title="Comprehensive Services"
-            description="One trusted professional handles the home sale, senior placement, and the physical move."
+            description="One trusted professional handles the home sale, senior placement, and the physical move across Orange, LA, Riverside, and San Bernardino counties."
             features={[
               { id: "1", title: "Real Estate Services", description: "Professional home sale coordination with compassion.", imageSrc: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop" },
               { id: "2", title: "Senior Placement", description: "Expert assistance finding the right community.", imageSrc: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop" },
@@ -59,8 +59,8 @@ export default function ServicesPage() {
             title="Service Impact"
             description="Integrated management delivers better outcomes for seniors and their families."
             metrics={[
-              { id: "m1", icon: Home, title: "Real Estate", value: "Top Dollar" },
-              { id: "m2", icon: Heart, title: "Placement", value: "Free" },
+              { id: "m1", icon: Home, title: "Real Estate", value: "4 Counties, 1 Expert" },
+              { id: "m2", icon: Heart, title: "Placement", value: "Free to Families — Senior Placement at $0 Cost" },
               { id: "m3", icon: Package, title: "Management", value: "Custom" },
             ]}
           />
