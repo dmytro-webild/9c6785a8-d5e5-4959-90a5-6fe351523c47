@@ -51,7 +51,7 @@ export default function LandingPage() {
       ]}
       avatarText="Trusted by families across SoCal"
       imageSrc="http://img.b2bpic.net/free-photo/professional-consultant-sitting-with-senior-adult-child-kitchen-table_482257-25143.jpg"
-      imageAlt="Consultant sitting with senior and adult child at kitchen table"
+      imageAlt="Professional consultant sitting with a senior and their adult child at a kitchen table"
       className="py-20"
     />
   </div>
