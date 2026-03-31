@@ -91,7 +91,7 @@ export default function LandingPage() {
   <div id="testimonial" data-section="testimonial">
       <TestimonialCardThirteen
       carouselMode="auto"
-      animationType="slide-up"
+      animationType="none"
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
