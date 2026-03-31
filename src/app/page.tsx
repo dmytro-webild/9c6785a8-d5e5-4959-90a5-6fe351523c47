@@ -50,8 +50,6 @@ export default function LandingPage() {
         { text: "See Our Process", href: "/how-it-works" },
       ]}
       avatarText="Trusted by families across SoCal"
-      imageSrc="http://img.b2bpic.net/free-photo/professional-consultant-sitting-with-senior-adult-child-kitchen-table_482257-25143.jpg"
-      imageAlt="Professional consultant sitting with a senior and their adult child at a kitchen table"
       className="py-20"
     />
   </div>
