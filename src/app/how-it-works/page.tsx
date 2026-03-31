@@ -57,22 +57,22 @@ export default function LandingPage() {
           id: 2, 
           title: "Custom Transition Plan", 
           description: "Every situation is different. Yours gets a custom roadmap.", 
-          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg" },
-          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg" }
+          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg?_wi=1" },
+          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg?_wi=2" }
         },
         { 
           id: 3, 
           title: "Full Execution", 
           description: "We handle home sales, placement tours, and downsizing with you.", 
-          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg" },
-          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg" }
+          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg?_wi=1" },
+          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg?_wi=2" }
         },
         { 
           id: 4, 
           title: "Move-In Day", 
           description: "From old home to new, fully set up and ready to enjoy.", 
-          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg" },
-          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg" }
+          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg?_wi=1" },
+          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg?_wi=2" }
         },
       ]}
     />
