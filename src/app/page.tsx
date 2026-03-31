@@ -46,10 +46,13 @@ export default function LandingPage() {
       background={{ variant: "plain" }}
       testimonials={[
         {
-          name: "Sarah Miller",          handle: "Orange County",          testimonial: "Palante STS transformed a stressful transition into a seamless experience. Their care is unmatched.",          rating: 5
+          name: "Sarah Miller", handle: "Orange County", testimonial: "Palante STS transformed a stressful transition into a seamless experience. Their care is unmatched.", rating: 5
         },
         {
-          name: "David Chen",          handle: "Los Angeles",          testimonial: "They handled the real estate and placement with such empathy and expertise. Highly recommend.",          rating: 5
+          name: "David Chen", handle: "Los Angeles", testimonial: "They handled the real estate and placement with such empathy and expertise. Highly recommend.", rating: 5
+        },
+        {
+          name: "Elena Rodriguez", handle: "Corona", testimonial: "Kind, patient, and deeply knowledgeable. They truly made 'pa'lante' feel real.", rating: 5
         }
       ]}
       buttons={[
