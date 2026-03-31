@@ -49,13 +49,6 @@ export default function LandingPage() {
         { text: "Schedule a Free Consultation", href: "/contact" },
         { text: "See Our Process", href: "/how-it-works" },
       ]}
-      avatars={[
-        { src: "https://img.b2bpic.net/free-photo/portrait-happy-senior-woman_23-2148560130.jpg", alt: "Client" },
-        { src: "https://img.b2bpic.net/free-photo/man-smiling-camera_23-2148560131.jpg", alt: "Client" },
-        { src: "https://img.b2bpic.net/free-photo/senior-woman-portrait_23-2148560132.jpg", alt: "Client" },
-        { src: "https://img.b2bpic.net/free-photo/older-man-portrait_23-2148560133.jpg", alt: "Client" },
-        { src: "https://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg", alt: "Client" }
-      ]}
       avatarText="Trusted by families across SoCal"
       imageSrc="http://img.b2bpic.net/free-photo/professional-consultant-sitting-with-senior-adult-child-kitchen-table_482257-25143.jpg"
       imageAlt="Consultant sitting with senior and adult child at kitchen table"
