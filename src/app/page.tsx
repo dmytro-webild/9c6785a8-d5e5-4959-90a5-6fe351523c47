@@ -45,31 +45,24 @@ export default function LandingPage() {
       title="When It's Time for Mom or Dad to Move — We Handle Everything."
       description="California-licensed Senior Transition Specialist serving Orange County, LA, Riverside & San Bernardino. Real estate. Placement. Downsizing. One expert. One seamless process."
       leftCarouselItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=1", imageAlt: "Family support consultation" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=2", imageAlt: "Caring transition support" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=3", imageAlt: "Seamless senior move" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=4", imageAlt: "Helping families forward" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=5", imageAlt: "Expert transition guidance" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=6", imageAlt: "Professional real estate care" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/family-walking-together-park-outdoor_23-2148560123.jpg", imageAlt: "Family support consultation" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/senior-people-using-digital-tablets_23-2149021234.jpg", imageAlt: "Caring transition support" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/group-senior-people-walking-park_23-2148560124.jpg", imageAlt: "Seamless senior move" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/happy-senior-people-living-together_23-2148765432.jpg", imageAlt: "Helping families forward" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-talking-caregiver_23-2148560125.jpg", imageAlt: "Expert transition guidance" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/happy-family-walking-park_23-2148560126.jpg", imageAlt: "Professional real estate care" },
       ]}
       rightCarouselItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=7", imageAlt: "Family care professional" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=8", imageAlt: "Senior community visit" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=9", imageAlt: "Seamless downsizing process" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=10", imageAlt: "Happy senior transition" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=11", imageAlt: "Trusted expert service" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=12", imageAlt: "Quality senior placement" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/happy-family-walking-park_23-2148560126.jpg", imageAlt: "Family care professional" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-talking-caregiver_23-2148560125.jpg", imageAlt: "Senior community visit" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/happy-senior-people-living-together_23-2148765432.jpg", imageAlt: "Seamless downsizing process" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/group-senior-people-walking-park_23-2148560124.jpg", imageAlt: "Happy senior transition" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/senior-people-using-digital-tablets_23-2149021234.jpg", imageAlt: "Trusted expert service" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/family-walking-together-park-outdoor_23-2148560123.jpg", imageAlt: "Quality senior placement" },
       ]}
       buttons={[
         { text: "Claim Your Free Needs Assessment Now", href: "/contact" },
         { text: "See Our Process", href: "/how-it-works" },
-      ]}
-      avatars={[
-        { src: "http://img.b2bpic.net/free-photo/shot-happy-50-year-old-retired-woman-with-freckles-gray-hair-posing-stylish-interior-background-wearing-white-shirt-smiling-broadly-front_343059-3758.jpg", alt: "Client 1" },
-        { src: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg", alt: "Client 2" },
-        { src: "http://img.b2bpic.net/free-photo/medium-shot-happy-queer-eldery-women_23-2149732507.jpg", alt: "Client 3" },
-        { src: "http://img.b2bpic.net/free-photo/beautiful-african-american-woman-cafe_273609-5287.jpg", alt: "Client 4" },
-        { src: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg", alt: "Client 5" },
       ]}
       marqueeItems={[
         { type: "text", text: "Licensed" },
@@ -86,9 +79,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        { id: 1, title: "Step 1: Needs Assessment", description: "Dad fell last month and can't live alone anymore — we provide immediate assessment and safety-first planning to bring you peace of mind.", imageSrc: "http://img.b2bpic.net/free-photo/happy-smiling-senior-couple-looking-away_23-2148873752.jpg" },
-        { id: 2, title: "Step 2: Logistical Management", description: "Downsizing an entire life's accumulation is overwhelming; we restore your home's value and simplify the process, ensuring family unity throughout.", imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=2" },
-        { id: 3, title: "Step 3: Family Advocacy", description: "Living states away creates unnecessary stress; we serve as your local advocate to bridge the gap and maintain harmony for the whole family.", imageSrc: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=3" },
+        { id: 1, title: "Step 1: Needs Assessment", description: "Dad fell last month and can't live alone anymore — we provide immediate assessment and safety-first planning to bring you peace of mind.", imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg" },
+        { id: 2, title: "Step 2: Logistical Management", description: "Downsizing an entire life's accumulation is overwhelming; we restore your home's value and simplify the process, ensuring family unity throughout.", imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg" },
+        { id: 3, title: "Step 3: Family Advocacy", description: "Living states away creates unnecessary stress; we serve as your local advocate to bridge the gap and maintain harmony for the whole family.", imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg" },
       ]}
       title="Simplifying Every Step of Your Parent’s Transition"
       description="Navigating a parent's major life transition is difficult. We specialize in managing the emotional and logistical heavy lifting with warmth and expertise."
@@ -102,11 +95,10 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Sarah Miller", handle: "Orange County", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/shot-happy-50-year-old-retired-woman-with-freckles-gray-hair-posing-stylish-interior-background-wearing-white-shirt-smiling-broadly-front_343059-3758.jpg?_wi=1" },
-        { id: "2", name: "David Chen", handle: "Los Angeles", testimonial: "The combination of real estate and placement services was exactly what we needed for Mom.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg" },
-        { id: "3", name: "Elena Rodriguez", handle: "Riverside County", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-happy-queer-eldery-women_23-2149732507.jpg" },
-        { id: "4", name: "Robert Johnson", handle: "San Bernardino", testimonial: "One point of contact for the house sale, placement, and downsizing. An absolutely seamless experience.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/beautiful-african-american-woman-cafe_273609-5287.jpg" },
-        { id: "5", name: "Linda Thompson", handle: "Orange County", testimonial: "They provided the emotional support and logistical clarity our family desperately needed.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/shot-happy-50-year-old-retired-woman-with-freckles-gray-hair-posing-stylish-interior-background-wearing-white-shirt-smiling-broadly-front_343059-3758.jpg?_wi=2" },
+        { id: "1", name: "Sarah Miller", handle: "Orange County", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/portrait-happy-senior-woman_23-2148560130.jpg" },
+        { id: "2", name: "David Chen", handle: "Los Angeles", testimonial: "The combination of real estate and placement services was exactly what we needed for Mom.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/man-smiling-camera_23-2148560131.jpg" },
+        { id: "3", name: "Elena Rodriguez", handle: "Riverside County", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-portrait_23-2148560132.jpg" },
+        { id: "4", name: "Robert Johnson", handle: "San Bernardino", testimonial: "One point of contact for the house sale, placement, and downsizing. An absolutely seamless experience.", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/older-man-portrait_23-2148560133.jpg" },
       ]}
       showRating={true}
       title="What Our Families Say"
@@ -120,7 +112,8 @@ export default function LandingPage() {
       title="Our Commitment to Dignity"
       description={[
         "Moving a parent is not just a logistical task; it is an emotional journey.",        
-        "Our mission is to guide you with transparency, respect, and deep expertise, ensuring your loved one's future is secure and comfortable.",        "My own mother's transition taught me how crucial an advocate is to prevent burnout and ensure a smooth move. I founded Palante STS to be that advocate for you and your family, treating every client with the same compassion I would expect for my own family."
+        "Our mission is to guide you with transparency, respect, and deep expertise, ensuring your loved one's future is secure and comfortable.",        
+        "My own mother's transition taught me how crucial an advocate is to prevent burnout and ensure a smooth move. I founded Palante STS to be that advocate for you and your family, treating every client with the same compassion I would expect for my own family."
       ]}
       showBorder={true}
       buttons={[{ text: "Meet Our Team & Licensing", href: "/about" }]} 
