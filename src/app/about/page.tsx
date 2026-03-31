@@ -7,7 +7,7 @@ import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSp
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 
-export default function LandingPage() {
+export default function AboutPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="hover-magnetic"
@@ -40,13 +40,18 @@ export default function LandingPage() {
       <InlineImageSplitTextAbout
       useInvertedBackground={false}
       heading={[
-        { type: "text", content: "What 'Palante' Means to Us" },
-        { type: "image", src: "http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg", alt: "Palante Meaning" },
+        { type: "text", content: "Ronnie Konishi: Your Partner in Transition" },
       ]}
     />
-    <div className="px-6 py-12 max-w-4xl mx-auto">
+    <div className="px-6 py-12 max-w-4xl mx-auto space-y-6">
       <p className="text-lg leading-relaxed text-gray-700">
-        My own mother's transition taught me how crucial an advocate is to prevent burnout and ensure a smooth move. I founded Palante STS to be that advocate for you and your family, treating every client with the same compassion I would expect for my own family.
+        I founded Palante STS with a singular purpose: to provide the professional, empathetic advocacy that I wished I had for my own family. When a parent needs to transition, the path forward is often obscured by emotional weight and logistical complexity. I am here to light the way.
+      </p>
+      <p className="text-lg leading-relaxed text-gray-700">
+        With a deep background in real estate and senior transitions, I bridge the gap between selling a cherished family home and ensuring a comfortable, secure placement. My approach is rooted in the belief that every family deserves a guide who listens first and acts with integrity second.
+      </p>
+      <p className="text-lg leading-relaxed text-gray-700">
+        At Palante STS, we don't just facilitate moves; we build trust. We handle the heavy lifting of downsizing and logistics so you can focus on what truly matters: spending quality time with your loved ones. Let us handle the details while you hold the hands of those you care about most.
       </p>
     </div>
   </div>
@@ -58,10 +63,10 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       members={[
-        { id: "t1", name: "Principal Specialist", role: "Owner & Lead", description: "Experienced licensed professional with deep compassion for Southern California families.", imageSrc: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg?_wi=2" },
+        { id: "t1", name: "Ronnie Konishi", role: "Owner & Lead Specialist", description: "Licensed specialist dedicated to serving families across Southern California with heart and expertise.", imageSrc: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg?_wi=2" },
       ]}
-      title="Meet the Team"
-      description="Highly trusted specialists committed to Southern California families."
+      title="Meet Your Advocate"
+      description="Personalized attention for every family we serve."
     />
   </div>
 
