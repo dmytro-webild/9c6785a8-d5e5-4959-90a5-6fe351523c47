@@ -26,29 +26,17 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "How It Works",
-          id: "/how-it-works",
-        },
+          name: "How It Works",          id: "/how-it-works"},
         {
-          name: "Services",
-          id: "/services",
-        },
+          name: "Services",          id: "/services"},
         {
-          name: "About",
-          id: "/about",
-        },
+          name: "About",          id: "/about"},
         {
-          name: "Resources",
-          id: "/resources",
-        },
+          name: "Resources",          id: "/resources"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="Palante STS"
     />
@@ -62,26 +50,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "re",
-          name: "Real Estate Services",
-          price: "Top Dollar",
-          variant: "Home Sale",
-          imageSrc: "http://img.b2bpic.net/free-vector/delivery-courier-people-icons-set_1284-17214.jpg?_wi=3",
-        },
+          id: "re",          name: "Real Estate Services",          price: "Top Dollar",          variant: "Home Sale",          imageSrc: "http://img.b2bpic.net/free-vector/delivery-courier-people-icons-set_1284-17214.jpg?_wi=3"},
         {
-          id: "sp",
-          name: "Senior Placement",
-          price: "Free",
-          variant: "Placement",
-          imageSrc: "http://img.b2bpic.net/free-vector/infographics-presentation-layout-template-with-business-people-silhouettes-icons_98292-4518.jpg?_wi=3",
-        },
+          id: "sp",          name: "Senior Placement",          price: "Free",          variant: "Placement",          imageSrc: "http://img.b2bpic.net/free-vector/infographics-presentation-layout-template-with-business-people-silhouettes-icons_98292-4518.jpg?_wi=3"},
         {
-          id: "tm",
-          name: "Transition Management",
-          price: "Custom",
-          variant: "Full Service",
-          imageSrc: "http://img.b2bpic.net/free-vector/flat-real-estate-infographic-template_23-2149009293.jpg?_wi=2",
-        },
+          id: "tm",          name: "Transition Management",          price: "Custom",          variant: "Full Service",          imageSrc: "http://img.b2bpic.net/free-vector/flat-real-estate-infographic-template_23-2149009293.jpg?_wi=2"},
       ]}
       title="Comprehensive Services"
       description="One trusted professional handles the home sale, senior placement, and the physical move."
@@ -95,34 +68,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "100%",
-          title: "Expert Coordination",
-          items: [
-            "Real Estate",
-            "Placement",
-            "Downsizing",
-          ],
+          id: "m1",          value: "100%",          title: "Expert Coordination",          items: [
+            "Real Estate",            "Placement",            "Downsizing"],
         },
         {
-          id: "m2",
-          value: "4",
-          title: "Counties Served",
-          items: [
-            "Orange",
-            "LA",
-            "Riverside",
-            "SB",
-          ],
+          id: "m2",          value: "4",          title: "Counties Served",          items: [
+            "Orange",            "LA",            "Riverside",            "SB"],
         },
         {
-          id: "m3",
-          value: "Free",
-          title: "Placement Fee",
-          items: [
-            "Zero cost",
-            "to families",
-          ],
+          id: "m3",          value: "Free",          title: "Placement Fee",          items: [
+            "Zero cost",            "to families"],
         },
       ]}
       title="Service Impact"
@@ -136,45 +91,29 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "Home",
-              href: "/",
-            },
+              label: "Home",              href: "/"},
             {
-              label: "How It Works",
-              href: "/how-it-works",
-            },
+              label: "How It Works",              href: "/how-it-works"},
             {
-              label: "Services",
-              href: "/services",
-            },
+              label: "Services",              href: "/services"},
           ],
         },
         {
           items: [
             {
-              label: "About Us",
-              href: "/about",
-            },
+              label: "About Us",              href: "/about"},
             {
-              label: "Resources",
-              href: "/resources",
-            },
+              label: "Resources",              href: "/resources"},
             {
-              label: "Contact",
-              href: "/contact",
-            },
+              label: "Contact",              href: "/contact"},
           ],
         },
         {
           items: [
             {
-              label: "CA DRE# 00000000",
-              href: "#",
-            },
+              label: "CA DRE# 01832704",              href: "#"},
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
           ],
         },
       ]}
