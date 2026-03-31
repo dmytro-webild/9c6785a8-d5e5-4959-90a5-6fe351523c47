@@ -61,7 +61,7 @@ export default function LandingPage() {
         { imageSrc: "https://img.b2bpic.net/free-photo/family-walking-together-park-outdoor_23-2148560123.jpg?_wi=2", imageAlt: "Quality senior placement" },
       ]}
       buttons={[
-        { text: "Claim Your Free Needs Assessment Now", href: "/contact" },
+        { text: "Schedule a Free Consultation", href: "/contact" },
         { text: "See Our Process", href: "/how-it-works" },
       ]}
       marqueeItems={[
