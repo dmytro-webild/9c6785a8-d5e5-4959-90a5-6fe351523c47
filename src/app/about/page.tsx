@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
+import MediaAbout from '@/components/sections/about/MediaAbout';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 
@@ -37,44 +37,66 @@ export default function AboutPage() {
   </div>
 
   <div id="about" data-section="about">
-      <InlineImageSplitTextAbout
+      <MediaAbout
+      title="Ronnie Konishi"
+      description="Founder & Principal Senior Transition Specialist · California Licensed Realtor · 20 Years Experience"
       useInvertedBackground={false}
-      heading={[
-        { type: "text", content: "Advocacy Rooted in Compassion and Expertise" },
-      ]}
-      buttons={[{ text: "Let's Start Your Journey", href: "/contact" }]}
+      className="py-20"
     />
-    <div className="px-6 py-12 max-w-4xl mx-auto space-y-6">
-      <h2 className="text-3xl font-semibold">Our Origin Story</h2>
-      <p className="text-lg leading-relaxed text-gray-700">
-        Palante STS was born out of a personal realization. When I navigated my own mother's senior transition, I saw firsthand how fragmented, stressful, and lonely the process could be for a family. I realized that families don't need just a realtor or just a placement agent; they need a partner who understands the emotional weight and logistical urgency of the moment.
-      </p>
-      <h2 className="text-3xl font-semibold">The Palante Philosophy</h2>
-      <p className="text-lg leading-relaxed text-gray-700">
-        Our philosophy is simple: we walk beside you. 'Pa'lante' means moving forward, and that is exactly what we do—we move families forward with grace, dignity, and absolute transparency. By integrating real estate sales, placement advocacy, and move management, we eliminate the need for you to coordinate between multiple disconnected vendors.
-      </p>
-      <h2 className="text-3xl font-semibold">Our Commitment to You</h2>
-      <p className="text-lg leading-relaxed text-gray-700">
-        We hold ourselves to a standard of radical empathy. Whether we are preparing a home for market or navigating complex placement paperwork, our goal is to ensure you can spend your energy on the person who matters most: your parent. You handle the love; we handle the rest.
-      </p>
-      <blockquote className="border-l-4 border-blue-600 pl-6 py-2 my-8 text-xl italic text-gray-800">
-        "We don't just facilitate moves; we build trust for the next chapter of life."
+    <div className="px-6 py-12 max-w-4xl mx-auto space-y-8">
+      <blockquote className="text-2xl italic text-gray-800 font-serif border-l-4 border-blue-600 pl-6 py-2 my-8">
+        'I remember wishing there was just one person who could guide us through everything — with both expertise and compassion.'
       </blockquote>
+      
+      <p className="text-lg leading-relaxed text-gray-700">
+        When my mother needed to move from our family home into assisted living, I thought my 20 years as a licensed California Realtor would make it easier. I knew real estate. I knew contracts and timelines and negotiations.
+      </p>
+      <p className="text-lg leading-relaxed text-gray-700">
+        I was not prepared for the rest of it.
+      </p>
+      <p className="text-lg leading-relaxed text-gray-700">
+        The endless phone calls to senior communities — none of whom seemed to have availability when we needed it. The contradictory advice from well-meaning friends. The sheer weight of deciding what happened to 40 years of furniture, photographs, and memories. And underneath all of it, the emotional toll on every member of our family — the guilt, the grief, the exhaustion of making enormous decisions while also trying to just be a present, loving son.
+      </p>
+      <p className="text-lg leading-relaxed text-gray-700">
+        I remember standing in my mother's living room one afternoon, surrounded by decades of her life, thinking: there has to be a better way to do this.
+      </p>
+
+      <h2 className="text-3xl font-semibold mt-12">Why I Founded Palante STS</h2>
+      <p className="text-lg leading-relaxed text-gray-700">
+        After my family's experience, I couldn't stop thinking about the thousands of Southern California families going through the same thing every single day — without a roadmap, without a guide, without anyone who could hold the whole picture at once.
+      </p>
+      <p className="text-lg leading-relaxed text-gray-700">
+        I founded Palante Senior Transition Specialists to be the service I wished my family had. One person. One point of contact. Someone who could sell the home with genuine expertise, identify and personally vet the right senior communities, and manage the downsizing and move — all while actually understanding what the family was going through emotionally.
+      </p>
+      <p className="text-lg leading-relaxed text-gray-700">
+        The name says it all. Pa'lante — from the Cuban expression para adelante — means forward. It's what we say when we're facing something hard and we choose to keep moving. That's what every family I work with is doing. And that's the energy I bring to every engagement.
+      </p>
+
+      <h2 className="text-3xl font-semibold mt-12">What I Bring to Your Family</h2>
+      <ul className="list-disc pl-6 space-y-4 text-lg text-gray-700">
+        <li><strong>20 years as a California-licensed Realtor</strong> — I know how to price, prepare, and sell a senior's home for top dollar in the Orange County, LA, Riverside, and San Bernardino markets.</li>
+        <li><strong>Personal knowledge of Southern California's senior communities</strong> — I have personally toured Board & Care homes, assisted living communities, and memory care facilities across all four counties.</li>
+        <li><strong>End-to-end coordination</strong> — I don't hand you off. From the first conversation to move-in day, I am your one point of contact.</li>
+        <li><strong>The understanding that only comes from lived experience</strong> — I know what it feels like to stand in your parent's home and not know where to start.</li>
+      </ul>
+
+      <h2 className="text-3xl font-semibold mt-12">Who I Serve</h2>
+      <p className="text-lg leading-relaxed text-gray-700">
+        I work with families across Orange County, Los Angeles County, Riverside County, and San Bernardino County. My clients are adult children — many managing a parent's transition from another city or state — and seniors who are ready to take this step on their own terms, with someone they trust beside them.
+      </p>
+      <p className="text-lg leading-relaxed text-gray-700">
+        Southern California is one of the most diverse regions in the country, and the families I serve reflect that richness. I am honored to work across cultures and communities, and I approach every family's situation with the same deep respect for their unique story, values, and needs. Se habla español.
+      </p>
     </div>
   </div>
 
-  <div id="team" data-section="team">
-      <TeamCardTwo
-      animationType="none"
-      textboxLayout="default"
-      gridVariant="three-columns-all-equal-width"
-      useInvertedBackground={false}
-      members={[
-        { id: "t1", name: "Ronnie Konishi", role: "Owner & Lead Specialist", description: "Licensed specialist dedicated to serving families across Southern California with heart and expertise.", imageSrc: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg?_wi=2" },
-      ]}
-      title="Meet Your Advocate"
-      description="Personalized attention for every family we serve."
-    />
+  <div id="contact" data-section="contact">
+    <div className="px-6 py-12 max-w-4xl mx-auto text-center">
+        <p className="text-xl italic font-serif mb-8 text-gray-800">'I'd love to learn about your family's situation. There's no pressure and no obligation — just a conversation with someone who has been where you are and knows the way forward.'</p>
+        <a href="/contact" className="inline-block px-8 py-4 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition">
+            Schedule a Call with Ronnie
+        </a>
+    </div>
   </div>
 
   <div id="footer" data-section="footer">
