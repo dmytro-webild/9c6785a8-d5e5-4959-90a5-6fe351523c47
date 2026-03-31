@@ -63,6 +63,7 @@ export default function ServicesPage() {
               { id: "m2", icon: Heart, title: "Placement", value: "Free to Families — Senior Placement at $0 Cost" },
               { id: "m3", icon: Package, title: "Management", value: "Custom" },
             ]}
+            valueClassName="text-sm md:text-base"
           />
         </div>
 
