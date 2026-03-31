@@ -45,20 +45,20 @@ export default function LandingPage() {
       title="When It's Time for Mom or Dad to Move — We Handle Everything."
       description="California-licensed Senior Transition Specialist serving Orange County, LA, Riverside & San Bernardino. Real estate. Placement. Downsizing. One expert. One seamless process."
       leftCarouselItems={[
-        { imageSrc: "https://img.b2bpic.net/free-photo/family-walking-together-park-outdoor_23-2148560123.jpg", imageAlt: "Family support consultation" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/senior-people-using-digital-tablets_23-2149021234.jpg", imageAlt: "Caring transition support" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/group-senior-people-walking-park_23-2148560124.jpg", imageAlt: "Seamless senior move" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/happy-senior-people-living-together_23-2148765432.jpg", imageAlt: "Helping families forward" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-talking-caregiver_23-2148560125.jpg", imageAlt: "Expert transition guidance" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/happy-family-walking-park_23-2148560126.jpg", imageAlt: "Professional real estate care" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/family-walking-together-park-outdoor_23-2148560123.jpg?_wi=1", imageAlt: "Family support consultation" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/senior-people-using-digital-tablets_23-2149021234.jpg?_wi=1", imageAlt: "Caring transition support" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/group-senior-people-walking-park_23-2148560124.jpg?_wi=1", imageAlt: "Seamless senior move" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/happy-senior-people-living-together_23-2148765432.jpg?_wi=1", imageAlt: "Helping families forward" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-talking-caregiver_23-2148560125.jpg?_wi=1", imageAlt: "Expert transition guidance" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/happy-family-walking-park_23-2148560126.jpg?_wi=1", imageAlt: "Professional real estate care" },
       ]}
       rightCarouselItems={[
-        { imageSrc: "https://img.b2bpic.net/free-photo/happy-family-walking-park_23-2148560126.jpg", imageAlt: "Family care professional" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-talking-caregiver_23-2148560125.jpg", imageAlt: "Senior community visit" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/happy-senior-people-living-together_23-2148765432.jpg", imageAlt: "Seamless downsizing process" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/group-senior-people-walking-park_23-2148560124.jpg", imageAlt: "Happy senior transition" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/senior-people-using-digital-tablets_23-2149021234.jpg", imageAlt: "Trusted expert service" },
-        { imageSrc: "https://img.b2bpic.net/free-photo/family-walking-together-park-outdoor_23-2148560123.jpg", imageAlt: "Quality senior placement" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/happy-family-walking-park_23-2148560126.jpg?_wi=2", imageAlt: "Family care professional" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/senior-woman-talking-caregiver_23-2148560125.jpg?_wi=2", imageAlt: "Senior community visit" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/happy-senior-people-living-together_23-2148765432.jpg?_wi=2", imageAlt: "Seamless downsizing process" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/group-senior-people-walking-park_23-2148560124.jpg?_wi=2", imageAlt: "Happy senior transition" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/senior-people-using-digital-tablets_23-2149021234.jpg?_wi=2", imageAlt: "Trusted expert service" },
+        { imageSrc: "https://img.b2bpic.net/free-photo/family-walking-together-park-outdoor_23-2148560123.jpg?_wi=2", imageAlt: "Quality senior placement" },
       ]}
       buttons={[
         { text: "Claim Your Free Needs Assessment Now", href: "/contact" },
