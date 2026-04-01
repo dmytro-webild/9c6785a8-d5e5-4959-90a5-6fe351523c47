@@ -70,7 +70,7 @@ export default function ResourcesPage() {
           category: "Caregiving",          
           title: "Supporting Your Parents",          
           excerpt: "Balancing care and compassion.",          
-          imageSrc: "https://images.unsplash.com/photo-1581481679503-467d7380a1d9?q=80&w=800",          
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775025173345-exfayvm0.jpg",          
           imageAlt: "Family caregiver supporting senior",          
           authorName: "Palante STS",          
           authorAvatar: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg",          
