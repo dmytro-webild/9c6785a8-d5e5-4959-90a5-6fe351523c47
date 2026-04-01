@@ -41,11 +41,11 @@ export default function LandingPage() {
       title="Let's Talk"
       description="Most families tell us they wish they had called sooner. Whenever you're ready, we're here."
       inputs={[
-        { name: "name", type: "text", placeholder: "Your Name" },
-        { name: "email", type: "email", placeholder: "Your Email" },
-        { name: "phone", type: "tel", placeholder: "Your Phone Number" },
+        { name: "name", type: "text", placeholder: "Your Name", className: "bg-white border border-gray-300 focus:border-gray-500" },
+        { name: "email", type: "email", placeholder: "Your Email", className: "bg-white border border-gray-300 focus:border-gray-500" },
+        { name: "phone", type: "tel", placeholder: "Your Phone Number", className: "bg-white border border-gray-300 focus:border-gray-500" },
       ]}
-      textarea={{ name: "situation", placeholder: "Tell us a little about your situation" }}
+      textarea={{ name: "situation", placeholder: "Tell us a little about your situation", className: "bg-white border border-gray-300 focus:border-gray-500" }}
       mediaAnimation="none"
       imageSrc="http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=13"
       imageAlt="warm multi-generational family moments"
