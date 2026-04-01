@@ -6,7 +6,7 @@ import FooterSimple from '@/components/sections/footer/FooterSimple';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
-import { Home, Heart, Package } from "lucide-react";
+import { Home, Heart, Package, MoveDown } from "lucide-react";
 
 export default function ServicesPage() {
   return (
@@ -61,7 +61,7 @@ export default function ServicesPage() {
             metrics={[
               { id: "m1", icon: Home, title: "Real Estate", value: "4 Counties, 1 Expert" },
               { id: "m2", icon: Heart, title: "Placement", value: "Free to Families — Senior Placement at $0 Cost" },
-              { id: "m3", icon: Package, title: "Management", value: "Custom" },
+              { id: "m3", icon: MoveDown, title: "Downsizing & Management", value: "Set up and organization" },
             ]}
             valueClassName="text-sm md:text-base"
           />
