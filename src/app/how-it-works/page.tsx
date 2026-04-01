@@ -50,29 +50,25 @@ export default function LandingPage() {
           id: 1, 
           title: "Free Consultation", 
           description: "We listen first — no pressure, no scripts. Just expert ears.", 
-          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=13" },
-          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=13" }
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg",          imageAlt: "Ronnie meeting a family during an initial consultation"
         },
         { 
           id: 2, 
           title: "Custom Transition Plan", 
           description: "Every situation is different. Yours gets a custom roadmap.", 
-          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg?_wi=1" },
-          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg?_wi=2" }
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-jlqq0vat.jpg",          imageAlt: "Developing a customized transition roadmap"
         },
         { 
           id: 3, 
           title: "Full Execution", 
           description: "We handle home sales, placement tours, and downsizing with you.", 
-          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg?_wi=1" },
-          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg?_wi=2" }
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg",          imageAlt: "Managing the home sale and downsizing process"
         },
         { 
           id: 4, 
           title: "Move-In Day", 
           description: "From old home to new, fully set up and ready to enjoy.", 
-          phoneOne: { imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg?_wi=1" },
-          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg?_wi=2" }
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg",          imageAlt: "Settling into the new home on move-in day"
         },
       ]}
     />
