@@ -46,7 +46,7 @@ export default function ServicesPage() {
             features={[
               { id: "1", title: "Real Estate Services", description: "Professional home sale coordination with compassion.", imageSrc: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop" },
               { id: "2", title: "Senior Placement", description: "Expert assistance finding the right community.", imageSrc: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop" },
-              { id: "3", title: "Transition Management", description: "Full support through downsizing and moving including management plus set up and organization.", imageSrc: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" },
+              { id: "3", title: "Transition Management", description: "Full support through downsizing and moving including set up and organization.", imageSrc: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" },
             ]}
           />
         </div>
@@ -56,12 +56,12 @@ export default function ServicesPage() {
             animationType="slide-up"
             textboxLayout="default"
             useInvertedBackground={false}
-            title="Management"
+            title=""
             description=""
             metrics={[
               { id: "m1", icon: Home, title: "Real Estate", value: "4 Counties, 1 Expert" },
               { id: "m2", icon: Heart, title: "Placement", value: "Free to Families — Senior Placement at $0 Cost" },
-              { id: "m3", icon: MoveDown, title: "Downsizing & Management", value: "Full coordination of logistics" },
+              { id: "m3", icon: MoveDown, title: "Downsizing • Packing • Move Day • New Home Setup", value: "Full coordination of logistics" },
             ]}
             valueClassName="text-sm md:text-base"
           />
