@@ -46,9 +46,9 @@ export default function LandingPage() {
       description="California-licensed Senior Transition Specialist serving Orange, Los Angeles, Riverside, and San Bernardino counties, focusing on real estate, placement, and downsizing as one seamless process."
       background={{ variant: "plain" }}
       testimonials={[
-        { name: "Sarah Miller", handle: "SC", testimonial: "Palante STS transformed a stressful transition into a seamless experience. Their care is unmatched.", rating: 5 },
-        { name: "David Chen", handle: "DC", testimonial: "They handled the real estate and placement with such empathy and expertise. Highly recommend.", rating: 5 },
-        { name: "Elena Rodriguez", handle: "ER", testimonial: "Kind, patient, and deeply knowledgeable. They truly made 'pa'lante' feel real.", rating: 5 }
+        { name: "Sarah Miller", handle: "SC, Orange", testimonial: "Palante STS transformed a stressful transition into a seamless experience. Their care is unmatched.", rating: 5 },
+        { name: "David Chen", handle: "DC, Irvine", testimonial: "They handled the real estate and placement with such empathy and expertise. Highly recommend.", rating: 5 },
+        { name: "Elena Rodriguez", handle: "ER, Riverside", testimonial: "Kind, patient, and deeply knowledgeable. They truly made 'pa'lante' feel real.", rating: 5 }
       ]}
       buttons={[
         { text: "Schedule a Free Consultation", href: "/contact" },
@@ -88,10 +88,10 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Sarah Miller", handle: "SC", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5 },
-        { id: "2", name: "David Chen", handle: "DC", testimonial: "The combination of real estate and placement services was exactly what we needed for Mom.", rating: 5 },
-        { id: "3", name: "Elena Rodriguez", handle: "ER", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5 },
-        { id: "4", name: "Robert Johnson", handle: "RJ", testimonial: "One point of contact for the house sale, placement, and downsizing. An absolutely seamless experience.", rating: 5 },
+        { id: "1", name: "Sarah Miller", handle: "SC, Orange", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5 },
+        { id: "2", name: "David Chen", handle: "DC, Irvine", testimonial: "The combination of real estate and placement services was exactly what we needed for Mom.", rating: 5 },
+        { id: "3", name: "Elena Rodriguez", handle: "ER, Riverside", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5 },
+        { id: "4", name: "Robert Johnson", handle: "RJ, San Bernardino", testimonial: "One point of contact for the house sale, placement, and downsizing. An absolutely seamless experience.", rating: 5 },
       ]}
       title="What Our Families Say"
       description="See why families count on Palante Senior Transition Specialists for expert, compassionate care during major life transitions."
