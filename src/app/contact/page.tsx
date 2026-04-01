@@ -47,8 +47,8 @@ export default function LandingPage() {
       ]}
       textarea={{ name: "situation", placeholder: "Tell us a little about your situation", className: "bg-white border border-gray-300 focus:border-gray-500" }}
       mediaAnimation="none"
-      imageSrc="http://img.b2bpic.net/free-photo/mature-women-holding-hands_23-2148354864.jpg?_wi=13"
-      imageAlt="warm multi-generational family moments"
+      imageSrc="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      imageAlt="Happy senior smiling in a sunny community"
     />
   </div>
 
