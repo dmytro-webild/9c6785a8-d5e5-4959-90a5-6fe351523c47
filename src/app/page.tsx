@@ -63,9 +63,10 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        { id: 1, title: "Step 1: Needs Assessment", description: "Immediate peace of mind through a professional safety-first plan tailored to your loved one’s unique needs.", imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg" },
-        { id: 2, title: "Step 2: Logistical Management", description: "Stress-free transition support that restores your home’s value and simplifies complex logistics with expert coordination.", imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg" },
-        { id: 3, title: "Step 3: Family Advocacy", description: "Continued family harmony with a local expert who acts as a dedicated bridge to keep you connected and supported.", imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg" },
+        { id: 1, title: "Step 1: Free Consultation", description: "We listen first — no pressure, no scripts. Just expert ears.", imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg" },
+        { id: 2, title: "Step 2: Your Personalized Plan", description: "Every situation is different. Yours gets a custom roadmap.", imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg" },
+        { id: 3, title: "Step 3: We Handle Everything", description: "We handle home sales, placement tours, and downsizing with you.", imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg" },
+        { id: 4, title: "Step 4: Move-In Day", description: "From old home to new, fully set up and ready to enjoy.", imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg" },
       ]}
       title="Simplifying Every Step of Your Parent’s Transition"
       description="Navigating a parent's major life transition is difficult. We specialize in managing the emotional and logistical heavy lifting with warmth and expertise."
