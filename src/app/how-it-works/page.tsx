@@ -3,10 +3,9 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FaqBase from '@/components/sections/faq/FaqBase';
-import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
-import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import { Home, Lightbulb, FileText, CheckCircle } from "lucide-react";
+import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
+import FooterMedia from '@/components/sections/footer/FooterMedia';
+import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 
 export default function LandingPage() {
   return (
@@ -24,7 +23,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarStyleApple
+      <NavbarStyleFullscreen
       navItems={[
         { name: "Home", id: "/" },
         { name: "How It Works", id: "/how-it-works" },
@@ -38,8 +37,7 @@ export default function LandingPage() {
   </div>
 
   <div id="feature" data-section="feature">
-      <FeatureCardNine
-      showStepNumbers={true}
+      <FeatureCardSeven
       animationType="slide-up"
       textboxLayout="split"
       useInvertedBackground={false}
@@ -93,11 +91,12 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterLogoEmphasis
+      <FooterMedia
+      imageSrc="https://images.unsplash.com/photo-1596495577886-d920f1fb7530"
       columns={[
-        { items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
-        { items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
-        { items: [{ label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
+        { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
+        { title: "Support", items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
+        { title: "Legal", items: [{ label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
       ]}
       logoText="Palante STS"
     />
