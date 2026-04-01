@@ -9,6 +9,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
+import { CheckCircle2, CalendarDays, MapPin, HandHeart } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -55,6 +56,13 @@ export default function LandingPage() {
       ]}
       avatarText="Trusted by families across SoCal"
       className="py-20"
+      marqueeItems={[
+          { type: 'text-icon', text: "CA DRE Licensed", icon: CheckCircle2 },
+          { type: 'text-icon', text: "20 Years Experience", icon: CalendarDays },
+          { type: 'text-icon', text: "4 Counties Served", icon: MapPin },
+          { type: 'text-icon', text: "Placement Free to Families", icon: HandHeart }
+      ]}
+      marqueeSpeed={20}
     />
   </div>
 
