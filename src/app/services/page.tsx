@@ -61,7 +61,7 @@ export default function ServicesPage() {
             metrics={[
               { id: "m1", icon: Home, title: "Real Estate", value: "4 Counties, 1 Expert" },
               { id: "m2", icon: Heart, title: "Placement", value: "Free to Families — Senior Placement at $0 Cost" },
-              { id: "m3", icon: MoveDown, title: "Downsizing • Packing • Move Day • New Home Setup", value: "Full coordination of logistics" },
+              { id: "m3", icon: MoveDown, title: "Management", value: "Downsizing • Packing • Move Day • New Home Setup" },
             ]}
             valueClassName="text-sm md:text-base"
           />
