@@ -44,13 +44,37 @@ export default function ResourcesPage() {
       description="Essential guides and insights for navigating the senior transition process in SoCal."
       blogs={[
         {
-          id: "b1",          category: "Downsizing",          title: "5 Tips for Downsizing",          excerpt: "How to sort items with care.",          imageSrc: "https://images.unsplash.com/photo-1596495577886-d920f1fb7534?q=80&w=800",          imageAlt: "Senior couple home environment",          authorName: "Palante STS",          authorAvatar: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg",          date: "Jan 2026"
+          id: "b1",          
+          category: "Downsizing",          
+          title: "5 Tips for Downsizing",          
+          excerpt: "How to sort items with care.",          
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024899412-2vvj9muh.jpg",          
+          imageAlt: "Senior couple home environment",          
+          authorName: "Palante STS",          
+          authorAvatar: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg",          
+          date: "Jan 2026"
         },
         {
-          id: "b2",          category: "Housing",          title: "Assisted Living 101",          excerpt: "Understanding the types of senior homes.",          imageSrc: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=800",          imageAlt: "Senior community dining",          authorName: "Palante STS",          authorAvatar: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg",          date: "Jan 2026"
+          id: "b2",          
+          category: "Housing",          
+          title: "Assisted Living 101",          
+          excerpt: "Understanding the types of senior homes.",          
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024899413-sat65gaf.jpg",          
+          imageAlt: "Senior community dining",          
+          authorName: "Palante STS",          
+          authorAvatar: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg",          
+          date: "Jan 2026"
         },
         {
-          id: "b3",          category: "Caregiving",          title: "Supporting Your Parents",          excerpt: "Balancing care and compassion.",          imageSrc: "https://images.unsplash.com/photo-1581481679503-467d7380a1d9?q=80&w=800",          imageAlt: "Family caregiver supporting senior",          authorName: "Palante STS",          authorAvatar: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg",          date: "Jan 2026"
+          id: "b3",          
+          category: "Caregiving",          
+          title: "Supporting Your Parents",          
+          excerpt: "Balancing care and compassion.",          
+          imageSrc: "https://images.unsplash.com/photo-1581481679503-467d7380a1d9?q=80&w=800",          
+          imageAlt: "Family caregiver supporting senior",          
+          authorName: "Palante STS",          
+          authorAvatar: "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg",          
+          date: "Jan 2026"
         },
       ]}
     />
