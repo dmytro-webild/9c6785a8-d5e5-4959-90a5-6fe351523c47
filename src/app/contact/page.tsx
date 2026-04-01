@@ -30,6 +30,7 @@ export default function LandingPage() {
         { name: "About", id: "/about" },
         { name: "Resources", id: "/resources" },
         { name: "Contact", id: "/contact" },
+        { name: "(213) 706-0093 (Call/Text)", id: "tel:2137060093" }
       ]}
       brandName="Palante STS"
     />
@@ -39,7 +40,7 @@ export default function LandingPage() {
       <ContactSplitForm
       useInvertedBackground={false}
       title="Let's Talk"
-      description="Most families tell us they wish they had called sooner. Whenever you're ready, we're here."
+      description="Most families tell us they wish they had called sooner. Call or text us anytime at (213) 706-0093. Whenever you're ready, we're here."
       inputs={[
         { name: "name", type: "text", placeholder: "Your Name", className: "bg-white border border-gray-300 focus:border-gray-500" },
         { name: "email", type: "email", placeholder: "Your Email", className: "bg-white border border-gray-300 focus:border-gray-500" },
@@ -57,7 +58,7 @@ export default function LandingPage() {
       columns={[
         { items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
         { items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
-        { items: [{ label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
+        { items: [{ label: "(213) 706-0093 (Call or Text)", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
       ]}
       logoText="Palante STS"
     />
