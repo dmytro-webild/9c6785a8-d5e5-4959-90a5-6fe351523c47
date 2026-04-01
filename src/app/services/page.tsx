@@ -56,8 +56,8 @@ export default function ServicesPage() {
             animationType="slide-up"
             textboxLayout="default"
             useInvertedBackground={false}
-            title="Service Impact"
-            description="Integrated management delivers better outcomes for seniors and their families."
+            title="Management"
+            description="Downsizing & Move Management Plus Set Up and Organization"
             metrics={[
               { id: "m1", icon: Home, title: "Real Estate", value: "4 Counties, 1 Expert" },
               { id: "m2", icon: Heart, title: "Placement", value: "Free to Families — Senior Placement at $0 Cost" },
