@@ -69,9 +69,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        { id: 1, title: "Step 1: Needs Assessment", description: "Dad fell last month and can't live alone anymore — we provide immediate assessment and safety-first planning to bring you peace of mind.", imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg" },
-        { id: 2, title: "Step 2: Logistical Management", description: "Downsizing an entire life's accumulation is overwhelming; we restore your home's value and simplify the process, ensuring family unity throughout.", imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg" },
-        { id: 3, title: "Step 3: Family Advocacy", description: "Living states away creates unnecessary stress; we serve as your local advocate to bridge the gap and maintain harmony for the whole family.", imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg" },
+        { id: 1, title: "Step 1: Needs Assessment", description: "Immediate peace of mind through a professional safety-first plan tailored to your loved one’s unique needs.", imageSrc: "https://img.b2bpic.net/free-photo/caregiver-helping-senior-woman_23-2148560127.jpg" },
+        { id: 2, title: "Step 2: Logistical Management", description: "Stress-free transition support that restores your home’s value and simplifies complex logistics with expert coordination.", imageSrc: "https://img.b2bpic.net/free-photo/organized-living-room-interior_23-2148560128.jpg" },
+        { id: 3, title: "Step 3: Family Advocacy", description: "Continued family harmony with a local expert who acts as a dedicated bridge to keep you connected and supported.", imageSrc: "https://img.b2bpic.net/free-photo/family-talking-together_23-2148560129.jpg" },
       ]}
       title="Simplifying Every Step of Your Parent’s Transition"
       description="Navigating a parent's major life transition is difficult. We specialize in managing the emotional and logistical heavy lifting with warmth and expertise."
