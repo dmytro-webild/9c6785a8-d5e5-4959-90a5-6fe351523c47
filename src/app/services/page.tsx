@@ -2,11 +2,11 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import FooterSimple from '@/components/sections/footer/FooterSimple';
+import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
-import { Home, Heart, Package, MoveDown } from "lucide-react";
+import { Home, Heart, MoveDown } from "lucide-react";
 
 export default function ServicesPage() {
   return (
@@ -68,13 +68,12 @@ export default function ServicesPage() {
         </div>
 
         <div id="footer" data-section="footer">
-          <FooterSimple
+          <FooterLogoEmphasis
             columns={[
-              { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] },
-              { title: "Legal", items: [{ label: "CA DRE# 01832704" }, { label: "Privacy Policy" }] },
+              { items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] },
+              { items: [{ label: "(213) 706-0093 (Call or Text)", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
             ]}
-            bottomLeftText="© 2024 Palante STS"
-            bottomRightText="All rights reserved"
+            logoText="Palante STS"
           />
         </div>
       </ReactLenis>
