@@ -48,25 +48,25 @@ export default function LandingPage() {
           id: 1, 
           title: "Step 1: Free Consultation", 
           description: "We listen first — no pressure, no scripts. Just expert ears.", 
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg",          imageAlt: "Ronnie meeting a family during an initial consultation"
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg?_wi=1",          imageAlt: "Ronnie meeting a family during an initial consultation"
         },
         { 
           id: 2, 
           title: "Step 2: Your Personalized Plan", 
           description: "Every situation is different. Yours gets a custom roadmap.", 
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-jlqq0vat.jpg",          imageAlt: "Developing a customized transition roadmap"
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-jlqq0vat.jpg?_wi=1",          imageAlt: "Developing a customized transition roadmap"
         },
         { 
           id: 3, 
           title: "Step 3: We Handle Everything", 
           description: "We handle home sales, placement tours, and downsizing with you.", 
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg",          imageAlt: "Managing the home sale and downsizing process"
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=1",          imageAlt: "Managing the home sale and downsizing process"
         },
         { 
           id: 4, 
           title: "Step 4: Move-In Day", 
           description: "From old home to new, fully set up and ready to enjoy.", 
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg",          imageAlt: "Settling into the new home on move-in day"
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg?_wi=1",          imageAlt: "Settling into the new home on move-in day"
         },
       ]}
     />
