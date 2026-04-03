@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
-import FooterMedia from '@/components/sections/footer/FooterMedia';
+import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 
 export default function LandingPage() {
@@ -91,12 +91,11 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterMedia
-      imageSrc="https://images.unsplash.com/photo-1596495577886-d920f1fb7530"
+      <FooterLogoEmphasis
       columns={[
-        { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
-        { title: "Support", items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
-        { title: "Legal", items: [{ label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
+        { items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
+        { items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
+        { items: [{ label: "(213) 706-0093 (Call or Text)", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
       ]}
       logoText="Palante STS"
     />
