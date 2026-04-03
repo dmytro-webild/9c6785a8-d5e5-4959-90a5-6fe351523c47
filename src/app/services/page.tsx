@@ -30,6 +30,7 @@ export default function ServicesPage() {
               { name: "Services", id: "/services" },
               { name: "About", id: "/about" },
               { name: "Contact", id: "/contact" },
+              { name: "≡ (213) 706-0093", id: "tel:2137060093" }
             ]}
             brandName="Palante STS"
           />
@@ -71,7 +72,7 @@ export default function ServicesPage() {
           <FooterLogoEmphasis
             columns={[
               { items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] },
-              { items: [{ label: "(213) 706-0093 (Call or Text)", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
+              { items: [{ label: "≡ (213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
             ]}
             logoText="Palante STS"
           />
