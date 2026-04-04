@@ -46,7 +46,7 @@ export default function ServicesPage() {
             description="One trusted professional handles the home sale, senior placement, and the physical move across Orange, LA, Riverside, and San Bernardino counties."
             features={[
               { id: "1", title: "Real Estate Services", description: "Professional home sale coordination with compassion.", imageSrc: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop" },
-              { id: "2", title: "Senior Placement", description: "Expert assistance finding the right community.", imageSrc: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop" },
+              { id: "2", title: "Senior Placement", description: "Expert assistance finding the right community.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775317032776-p7d3t0ng.jpg" },
               { id: "3", title: "Transition Management", description: "Full support through downsizing and moving including set up and organization.", imageSrc: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" },
             ]}
           />
