@@ -43,7 +43,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardTestimonial
-      title="When It's Time for Mom or Dad to Move — We Handle Everything."
+      title="Overwhelmed by Your Parent's Move? We Understand"
       description="California-licensed Senior Transition Specialist serving Orange, Los Angeles, Riverside, and San Bernardino counties, focusing on real estate, placement, and downsizing as one seamless process."
       background={{ variant: "plain" }}
       testimonials={[
