@@ -4,8 +4,8 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import TextAbout from '@/components/sections/about/TextAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
+import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
 import { Heart, Compass, ShieldCheck } from "lucide-react";
 
 export default function AboutPage() {
@@ -24,7 +24,7 @@ export default function AboutPage() {
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
-            <NavbarStyleCentered
+            <NavbarLayoutFloatingInline
                 navItems={[
                     { name: "Home", id: "/" },
                     { name: "How It Works", id: "/how-it-works" },
@@ -43,6 +43,7 @@ export default function AboutPage() {
             tagIcon={Heart}
             title="More Than A Transition. A New Chapter for Your Loved One."
             className="py-24"
+            useInvertedBackground={false}
           />
           <div className="px-6 py-12 max-w-4xl mx-auto space-y-8 text-lg text-foreground/80">
             <p>Founded by Ronnie Konishi after navigating a deeply personal family transition, Palante STS was born from a singular belief: moving forward is not just a logistical necessity—it is an emotional journey that deserves to be honored with grace, patience, and dignity.</p>
@@ -92,11 +93,11 @@ export default function AboutPage() {
         </div>
 
         <div id="footer" data-section="footer">
-          <FooterBaseCard
+          <FooterBaseReveal
             columns={[
                 { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "How It Works", href: "/how-it-works" }] },
                 { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
-                { title: "Contact", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704" }] }
+                { title: "Contact", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }] }
             ]}
             logoText="Palante STS"
           />
