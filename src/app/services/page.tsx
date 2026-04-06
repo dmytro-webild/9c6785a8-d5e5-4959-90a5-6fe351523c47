@@ -2,10 +2,9 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
-import { LayoutList } from "lucide-react";
 
 export default function ServicesPage() {
   return (
@@ -28,8 +27,7 @@ export default function ServicesPage() {
               { name: "Home", id: "/" },
               { name: "Services", id: "/services" },
               { name: "About", id: "/about" },
-              { name: "Contact", id: "/contact" },
-              { name: "≡ (213) 706-0093", id: "tel:2137060093" }
+              { name: "Contact", id: "/contact" }
             ]}
             brandName="Palante STS"
           />
@@ -54,12 +52,12 @@ export default function ServicesPage() {
         </div>
 
         <div id="footer" data-section="footer">
-          <FooterLogoEmphasis
+          <FooterBaseCard
+            logoText="Palante STS"
             columns={[
               { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] },
-              { title: "Legal & Contact", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
+              { title: "Legal & Contact", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] }
             ]}
-            logoText="Palante STS"
           />
         </div>
       </ReactLenis>
