@@ -11,6 +11,7 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users } from "lucide-react";
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
+import ContactCenter from '@/components/sections/contact/ContactCenter';
 
 export default function LandingPage() {
   return (
@@ -80,6 +81,17 @@ export default function LandingPage() {
             { id: "trust2", value: "20+", title: "Years Experience", items: ["California Licensed", "DRE Certified", "Community experts"] },
             { id: "trust3", value: "4", title: "Regions Served", items: ["Orange County", "Los Angeles", "Riverside", "San Bernardino"] }
         ]}
+    />
+  </div>
+
+  <div id="lead-capture" data-section="lead-capture">
+    <ContactCenter
+      tag="Helpful Resources"
+      title="7 Signs It Is Time to Transition Your Aging Parent"
+      description="Deciding when to move can feel overwhelming. We've created a gentle, comprehensive guide to help you recognize the signs that it might be time to seek more support for your loved one. Download this free guide to gain clarity for your next steps."
+      background={{ variant: "sparkles-gradient" }}
+      buttonText="Send Me the Guide"
+      inputPlaceholder="Enter your email"
     />
   </div>
 
