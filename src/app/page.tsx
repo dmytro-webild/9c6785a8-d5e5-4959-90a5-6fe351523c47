@@ -9,8 +9,9 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users } from "lucide-react";
+import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users, Building2 } from "lucide-react";
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
+import FeatureCardNineteen from '@/components/sections/feature/FeatureCardNineteen';
 
 export default function LandingPage() {
   return (
@@ -68,18 +69,17 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="authority" data-section="authority">
-      <MetricCardSeven
-        title="Serving Southern California Families"
-        description="We establish regional trust through deep, local expertise across the four major counties of Southern California."
-        animationType="slide-up"
+  <div id="local-authority" data-section="local-authority">
+    <FeatureCardNineteen
+        title="Your Trusted Local Authority in SoCal"
+        description="We provide localized, on-the-ground support across Southern California's key regions."
         textboxLayout="split"
         useInvertedBackground={true}
-        metrics={[
-            { id: "la", value: "Los Angeles", title: "County Coverage", items: ["Santa Monica", "Pasadena", "Torrance", "Long Beach"] },
-            { id: "oc", value: "Orange", title: "County Coverage", items: ["Irvine", "Newport Beach", "Anaheim", "Fullerton"] },
-            { id: "riv", value: "Riverside", title: "County Coverage", items: ["Riverside City", "Temecula", "Palm Desert", "Corona"] },
-            { id: "sb", value: "San Bernardino", title: "County Coverage", items: ["Redlands", "Fontana", "Rancho Cucamonga", "Victorville"] }
+        features={[
+            { tag: "Orange County", title: "Full Regional Coverage", subtitle: "Serving Irvine, Newport Beach, Huntington Beach, and beyond.", description: "Deep local expertise in OC real estate markets and senior communities." },
+            { tag: "Los Angeles", title: "Local LA Insight", subtitle: "Serving Santa Monica, Pasadena, Torrance, and more.", description: "Navigating the diversity of Los Angeles County's housing landscape." },
+            { tag: "Riverside", title: "Inland Empire Expertise", subtitle: "Serving Riverside, Temecula, Corona, and beyond.", description: "Connecting families to quality care and support services across Riverside." },
+            { tag: "San Bernardino", title: "Serving the San Bernardino Hub", subtitle: "Serving Ontario, Rancho Cucamonga, Chino, and more.", description: "Delivering dedicated transition support throughout the San Bernardino County area." }
         ]}
     />
   </div>
@@ -149,7 +149,7 @@ export default function LandingPage() {
         tag="Get In Touch"
         title="Start Your Gentle Transition Today"
         description="We're here to listen, support, and handle the heavy lifting. Reach out whenever you're ready—we'll guide you through this, step by step."
-        buttons={[{ text: "Schedule My Free Consultation", href: "/contact" }]}
+        buttons={[{ text: "Schedule My Free Consultation", href: "/contact" }]
         background={{ variant: "sparkles-gradient" }}
         useInvertedBackground={false}
       />
