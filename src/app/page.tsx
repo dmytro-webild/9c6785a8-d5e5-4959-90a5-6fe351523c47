@@ -97,10 +97,10 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        { id: 1, title: "Step 1: Free Consultation", description: "We listen first — no pressure, no scripts. Just expert ears.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg?_wi=2", imageAlt: "Ronnie meeting a family during an initial consultation" },
-        { id: 2, title: "Step 2: Your Personalized Plan", description: "Every situation is different. Yours gets a custom roadmap.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-jlqq0vat.jpg?_wi=2", imageAlt: "Developing a customized transition roadmap" },
-        { id: 3, title: "Step 3: We Handle Everything", description: "We handle home sales, placement tours, and downsizing with you.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2", imageAlt: "Managing the home sale and downsizing process" },
-        { id: 4, title: "Step 4: Move-In Day", description: "From old home to new, fully set up and ready to enjoy.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg?_wi=2", imageAlt: "Settling into the new home on move-in day" },
+        { title: "Step 1: Free Consultation", description: "We listen first — no pressure, no scripts. Just expert ears.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg?_wi=2", imageAlt: "Ronnie meeting a family during an initial consultation" },
+        { title: "Step 2: Your Personalized Plan", description: "Every situation is different. Yours gets a custom roadmap.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-jlqq0vat.jpg?_wi=2", imageAlt: "Developing a customized transition roadmap" },
+        { title: "Step 3: We Handle Everything", description: "We handle home sales, placement tours, and downsizing with you.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2", imageAlt: "Managing the home sale and downsizing process" },
+        { title: "Step 4: Move-In Day", description: "From old home to new, fully set up and ready to enjoy.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg?_wi=2", imageAlt: "Settling into the new home on move-in day" },
       ]}
       title="Simplifying Every Step of Your Parent’s Transition"
       description="Navigating a parent's major life transition is difficult. We specialize in managing the emotional and logistical heavy lifting with warmth and expertise."
@@ -129,9 +129,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Our Commitment to Dignity"
       description={[
-        "Moving a parent is not just a logistical task; it is an emotional journey.",        
-        "Our mission is to guide you with transparency, respect, and deep expertise, ensuring your loved one's future is secure and comfortable.",        
-        "My own mother's transition taught me how crucial an advocate is to prevent burnout and ensure a smooth move. I founded Palante STS to be that advocate for you and your family, treating every client with the same compassion I would expect for my own family."
+        "Moving a parent is not just a logistical task; it is an emotional journey.",        "Our mission is to guide you with transparency, respect, and deep expertise, ensuring your loved one's future is secure and comfortable.",        "My own mother's transition taught me how crucial an advocate is to prevent burnout and ensure a smooth move. I founded Palante STS to be that advocate for you and your family, treating every client with the same compassion I would expect for my own family."
       ]}
       showBorder={true}
       buttons={[{ text: "Meet Our Team & Licensing", href: "/about" }]} 
