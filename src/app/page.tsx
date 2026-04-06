@@ -38,6 +38,7 @@ export default function HomePage() {
             description="We guide your family through every phase of the senior transition with empathy, clarity, and expert coordination."
             textboxLayout="split"
             animationType="slide-up"
+            gridVariant="uniform-all-items-equal"
             useInvertedBackground={false}
             features={[
               { 
