@@ -9,7 +9,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users } from "lucide-react";
+import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users, Building2, Landmark, Mountain, TreeDeciduous } from "lucide-react";
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 
 export default function LandingPage() {
@@ -65,6 +65,22 @@ export default function LandingPage() {
           { type: 'text-icon', text: "Placement Free to Families", icon: HandHeart }
       ]}
       marqueeSpeed={20}
+    />
+  </div>
+
+  <div id="authority" data-section="authority">
+      <MetricCardSeven
+        title="Serving Southern California Families"
+        description="We establish regional trust through deep, local expertise across the four major counties of Southern California."
+        animationType="slide-up"
+        textboxLayout="split"
+        useInvertedBackground={true}
+        metrics={[
+            { id: "la", value: "Los Angeles", title: "County Coverage", items: ["Santa Monica", "Pasadena", "Torrance", "Long Beach"] },
+            { id: "oc", value: "Orange", title: "County Coverage", items: ["Irvine", "Newport Beach", "Anaheim", "Fullerton"] },
+            { id: "riv", value: "Riverside", title: "County Coverage", items: ["Riverside City", "Temecula", "Palm Desert", "Corona"] },
+            { id: "sb", value: "San Bernardino", title: "County Coverage", items: ["Redlands", "Fontana", "Rancho Cucamonga", "Victorville"] }
+        ]}
     />
   </div>
 
