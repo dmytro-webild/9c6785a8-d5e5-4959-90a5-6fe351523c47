@@ -5,6 +5,7 @@ import ReactLenis from "lenis/react";
 import FeatureCardOne from "@/components/sections/feature/FeatureCardOne";
 import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
 import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
+import ContactText from "@/components/sections/contact/ContactText";
 
 export default function HomePage() {
   return (
@@ -58,6 +59,17 @@ export default function HomePage() {
                 description: "We personally vet senior communities and guide you through the placement process to ensure a secure, comfortable new home.",                videoSrc: "https://example.com/video4.mp4"
               }
             ]}
+          />
+        </div>
+
+        <div id="contact" data-section="contact">
+          <ContactText
+            text="You Don’t Have to Do This Alone. We’re here to provide the steady guidance and compassionate support your family needs during this transition."
+            buttons={[
+              { text: "Book a Free Consultation", href: "/contact" },
+              { text: "Download the Free Guide", href: "/resources" }
+            ]}
+            background={{ variant: "sparkles-gradient" }}
           />
         </div>
 
