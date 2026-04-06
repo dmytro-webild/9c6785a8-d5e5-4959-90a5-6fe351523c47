@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import SplitAbout from '@/components/sections/about/SplitAbout';
+import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
@@ -38,19 +38,25 @@ export default function AboutPage() {
         </div>
 
         <div id="about" data-section="about">
-          <SplitAbout
+          <TextSplitAbout
             title="More Than A Transition. A New Chapter."
-            description="Founded by Ronnie Konishi after personal experience navigating a family transition, Palante STS was born from the belief that moving forward is not just a logistical necessity—it's an emotional journey that deserves to be honored."
+            description={[
+                "Founded by Ronnie Konishi after personal experience navigating a family transition, Palante STS was born from the belief that moving forward is not just a logistical necessity—it's an emotional journey that deserves to be honored.",                "We approach every family story with empathy and deep local expertise. Our mission is to bridge the gap between where you are and where you need to be, ensuring every step feels supported and dignified.",                "With over 20 years of real estate experience and a compassionate, hands-on approach, we remove the burden of logistics so your family can focus on what truly matters: staying present and connected."
+            ]}
             textboxLayout="split"
             useInvertedBackground={false}
-            bulletPoints={[
-              { icon: Scale, title: "20 Years of Real Estate Expertise", description: "As a licensed California Realtor, I ensure your home sale is handled with precision and financial care." },
-              { icon: MapPin, title: "Deep Community Knowledge", description: "I have personally vetted senior living options across Southern California to ensure your loved one finds a true home." },
-              { icon: Users, title: "End-to-End Coordination", description: "You have one partner, one point of contact, and one commitment: to make this as smooth as possible for your entire family." },
-              { icon: HandHeart, title: "Lived Experience & Empathy", description: "I have walked this path personally, and I bring that perspective to every family I serve." }
-            ]}
             className="py-24"
           />
+        </div>
+
+        <div id="features" data-section="features">
+            <TextSplitAbout
+                title="Why Choose Palante STS"
+                description={[
+                    "Expertise you can trust, compassion you can feel. We provide more than just coordination; we offer peace of mind."
+                ]}
+                useInvertedBackground={true}
+            />
         </div>
 
         <div id="contact" data-section="contact">
