@@ -30,7 +30,8 @@ export default function AboutPage() {
                     { name: "Services", id: "/services" },
                     { name: "About", id: "/about" },
                     { name: "Resources", id: "/resources" },
-                    { name: "Contact", id: "/contact" }
+                    { name: "Contact", id: "/contact" },
+                    { name: "Partner", id: "/referral-partner" }
                 ]}
                 brandName="Palante STS"
             />
@@ -68,7 +69,7 @@ export default function AboutPage() {
           <FooterBaseCard
             columns={[
                 { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "How It Works", href: "/how-it-works" }] },
-                { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
+                { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Referral Partner", href: "/referral-partner" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
                 { title: "Contact", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704" }] }
             ]}
             logoText="Palante STS"
