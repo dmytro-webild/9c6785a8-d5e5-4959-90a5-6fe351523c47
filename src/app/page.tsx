@@ -39,10 +39,10 @@ export default function HomePage() {
 
         <div id="hero" data-section="hero">
           <ContactSplit
-            tag="Compassionate Senior Transition Support"
-            title="When It’s Time to Transition, You Don’t Have to Carry the Weight Alone"
-            description="Helping overwhelmed adult children navigate the complex move to senior living with dignity, expert coordination, and peace of mind."
-            buttonText="Book Your Free 20-Minute Consultation"
+            tag="A Partner for Your Family's Journey"
+            title="Walking Beside You Through Every Transition"
+            description="Helping you navigate the move to senior living with the profound care, expert coordination, and quiet confidence your family deserves."
+            buttonText="Begin a Conversation"
             background={{ variant: "sparkles-gradient" }}
             useInvertedBackground={false}
           />
@@ -50,59 +50,59 @@ export default function HomePage() {
 
         <div id="pain-points" data-section="pain-points">
           <FeatureBorderGlow
-            title="Common Challenges We Resolve"
-            description="We understand that helping an aging parent is a massive undertaking. You are likely juggling more than you should."
+            title="Your Peace of Mind is Our Priority"
+            description="We understand that honoring your parent's future is a deeply personal commitment. We are here to carry the logistical load so you can focus on being present."
             animationType="slide-up"
             textboxLayout="split"
             useInvertedBackground={true}
             features={[
-              { icon: Users, title: "Overwhelmed by Logistics", description: "Managing property sales, downsizing, and placement all at once." },
-              { icon: HeartHandshake, title: "Emotional Strain", description: "Feeling the weight of guilt, exhaustion, and difficult family dynamics." },
-              { icon: ShieldCheck, title: "Safety Concerns", description: "Worrying if your parent is safe and truly cared for in their daily environment." },
-              { icon: Home, title: "Navigating Systems", description: "Confused by the maze of senior communities, waitlists, and complex paperwork." }
+              { icon: Users, title: "Graceful Logistical Guidance", description: "From the home sale to the final move, we handle the complex details with professional care." },
+              { icon: HeartHandshake, title: "Emotional Support", description: "We offer a steady, reassuring presence through the highs and lows of this life transition." },
+              { icon: ShieldCheck, title: "Your Advocate in Care", description: "We ensure your loved one's new environment truly honors their dignity, safety, and personal preferences." },
+              { icon: Home, title: "Clear, Thoughtful Planning", description: "We turn an overwhelming process into a clear path forward, built on trust and expert perspective." }
             ]}
           />
         </div>
 
         <div id="process" data-section="process">
             <TimelineHorizontalCardStack
-                title="A Clear, Gentle 3-Step Process"
-                description="We simplify the path forward so you can focus on your family, not the paperwork."
+                title="A Gentle Path Forward"
+                description="We simplify the complexities of this transition with a clear, step-by-step approach designed to keep you informed and at ease."
                 textboxLayout="default"
             >
                 <div className="space-y-6">
-                    <div className="p-6 rounded-lg bg-card border"><h3>1. Consultation</h3><p>We start with a free 20-minute call to listen to your story and understand your goals.</p></div>
-                    <div className="p-6 rounded-lg bg-card border"><h3>2. Personalized Plan</h3><p>We build a bespoke roadmap for the transition, addressing housing, home sale, and downsizing.</p></div>
-                    <div className="p-6 rounded-lg bg-card border"><h3>3. Coordinated Execution</h3><p>We step in to handle the heavy lifting, serving as your single point of contact until your parent is settled.</p></div>
+                    <div className="p-6 rounded-lg bg-card border"><h3>1. Quiet Listening</h3><p>We begin by simply listening to your family’s unique story, needs, and hopes for this new chapter.</p></div>
+                    <div className="p-6 rounded-lg bg-card border"><h3>2. Personalized Roadmap</h3><p>We develop a thoughtful plan that integrates care, logistics, and real estate, tailored to your family's needs.</p></div>
+                    <div className="p-6 rounded-lg bg-card border"><h3>3. Committed Partnership</h3><p>We walk beside you as your single point of contact, ensuring every detail is handled with integrity and calm.</p></div>
                 </div>
             </TimelineHorizontalCardStack>
         </div>
 
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardThirteen
-            title="Families We’ve Helped"
-            description="Real relief for real families in Southern California."
+            title="Families We’ve Supported"
+            description="Honoring your trust is the most important part of our work."
             showRating={true}
             animationType="slide-up"
             textboxLayout="default"
             useInvertedBackground={false}
             testimonials={[
-                { id: "t1", name: "Sarah J.", handle: "Los Angeles", testimonial: "Ronnie took the stress out of our transition. His real estate expertise combined with his deep knowledge of senior communities was a godsend.", rating: 5 }
+                { id: "t1", name: "Sarah J.", handle: "Los Angeles", testimonial: "Ronnie provided not just expert guidance through our move, but a sense of calm that made all the difference during such a vulnerable time.", rating: 5 }
             ]}
           />
         </div>
 
         <div id="faq" data-section="faq">
           <FaqSplitText
-            sideTitle="Frequently Asked Questions"
-            sideDescription="Everything you need to know about starting your consultation."
+            sideTitle="Reflective Answers"
+            sideDescription="We are here to help you feel confident as you take the next step."
             faqsAnimation="slide-up"
             useInvertedBackground={false}
             faqs={[
-              { id: "1", title: "Is the consultation really free?", content: "Yes, our initial 20-minute discovery consultation is entirely free and no-obligation. We just want to see how we can best support your family." },
-              { id: "2", title: "How do I book?", content: "Click the button above or visit our contact page to pick a time that works for you." }
+              { id: "1", title: "How do we begin?", content: "We invite you to reach out for a private, no-pressure conversation. It is a chance to share your situation and see if our partnership feels right for your family." },
+              { id: "2", title: "How do you support the family?", content: "We act as your advocate, managing the practical demands so you can remain present and connected to your parent during this transition." }
             ]}
-            buttons={[{ text: "Book a Consultation", href: "/contact" }]}
+            buttons={[{ text: "Schedule Your Private Consultation", href: "/contact" }]}
           />
         </div>
 
@@ -112,7 +112,7 @@ export default function HomePage() {
             columns={[
               { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "About", href: "/about" }] },
               { title: "Company", items: [{ label: "Contact", href: "/contact" }] },
-              { title: "Contact", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }] }
+              { title: "Support", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }] }
             ]}
           />
         </div>
