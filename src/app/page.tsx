@@ -2,14 +2,14 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import { CheckCircle2, CalendarDays, MapPin, HandHeart } from "lucide-react";
+import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
+import { CheckCircle2, CalendarDays, MapPin, HandHeart, Heart, Award, ShieldCheck } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -68,34 +68,41 @@ export default function LandingPage() {
   </div>
 
   <div id="feature" data-section="feature">
-      <FeatureCardEight
+      <FeatureCardTwentySeven
+      animationType="slide-up"
       textboxLayout="split"
-      useInvertedBackground={false}
+      title="Why Families Trust Palante"
+      description="We combine professional real estate expertise with deep senior care knowledge to advocate for your family."
       features={[
-        { id: 1, title: "Step 1: Free Consultation", description: "We listen first — no pressure, no scripts. Just expert ears.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg?_wi=2", imageAlt: "Ronnie meeting a family during an initial consultation" },
-        { id: 2, title: "Step 2: Your Personalized Plan", description: "Every situation is different. Yours gets a custom roadmap.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-jlqq0vat.jpg?_wi=2", imageAlt: "Developing a customized transition roadmap" },
-        { id: 3, title: "Step 3: We Handle Everything", description: "We handle home sales, placement tours, and downsizing with you.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2", imageAlt: "Managing the home sale and downsizing process" },
-        { id: 4, title: "Step 4: Move-In Day", description: "From old home to new, fully set up and ready to enjoy.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg?_wi=2", imageAlt: "Settling into the new home on move-in day" },
+        {
+          id: "t1",          title: "Real Estate Expertise",          descriptions: ["20 years of experience ensuring top dollar for family homes.", "Full service listing support."],
+        },
+        {
+          id: "t2",          title: "Personalized Advocacy",          descriptions: ["We personally tour communities to ensure they meet our standard.", "Always acting in the senior's best interest."],
+        },
+        {
+          id: "t3",          title: "Emotional Support",          descriptions: ["We provide the compassionate guidance that families need.", "Available to facilitate family conversations."],
+        }
       ]}
-      title="Simplifying Every Step of Your Parent’s Transition"
-      description="Navigating a parent's major life transition is difficult. We specialize in managing the emotional and logistical heavy lifting with warmth and expertise."
+      titleSegments={[{ type: 'text', content: 'Why Families Trust Palante' }]
+      }
     />
   </div>
 
   <div id="testimonial" data-section="testimonial">
       <TestimonialCardThirteen
       showRating={true}
-      animationType="none"
+      animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Sarah Miller", handle: "SC, Orange", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5 },
-        { id: "2", name: "David Chen", handle: "DC, Irvine", testimonial: "The combination of real estate and placement services was exactly what we needed for Mom.", rating: 5 },
-        { id: "3", name: "Elena Rodriguez", handle: "ER, Riverside", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5 },
-        { id: "4", name: "Robert Johnson", handle: "RJ, San Bernardino", testimonial: "One point of contact for the house sale, placement, and downsizing. An absolutely seamless experience.", rating: 5 },
+        { id: "1", name: "Sarah Miller", handle: "SC, Orange", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5, icon: Heart },
+        { id: "2", name: "David Chen", handle: "DC, Irvine", testimonial: "The combination of real estate and placement services was exactly what we needed for Mom.", rating: 5, icon: Award },
+        { id: "3", name: "Elena Rodriguez", handle: "ER, Riverside", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5, icon: ShieldCheck },
+        { id: "4", name: "Robert Johnson", handle: "RJ, San Bernardino", testimonial: "One point of contact for the house sale, placement, and downsizing. An absolutely seamless experience.", rating: 5, icon: Heart },
       ]}
-      title="What Our Families Say"
-      description="See why families count on Palante Senior Transition Specialists for expert, compassionate care during major life transitions."
+      title="Our Families' Success Stories"
+      description="We specialize in bridging the gap between real estate and care management—here is how families feel on the other side of a transition."
     />
   </div>
 
