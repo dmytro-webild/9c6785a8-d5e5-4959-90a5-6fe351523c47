@@ -57,6 +57,10 @@ export default function HomePage() {
               { 
                 title: "We Support the Next Housing Decision", 
                 description: "We personally vet senior communities and guide you through the placement process to ensure a secure, comfortable new home.",                imageSrc: "https://example.com/video4.mp4"
+              },
+              { 
+                title: "We Ensure a Seamless Final Settlement", 
+                description: "We oversee the final logistics and emotional milestones, ensuring your loved one is settled and thriving in their new environment with total peace of mind.",                imageSrc: "https://example.com/video5.mp4"
               }
             ]}
           />
