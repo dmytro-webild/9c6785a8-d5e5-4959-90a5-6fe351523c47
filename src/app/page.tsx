@@ -110,7 +110,7 @@ export default function LandingPage() {
   <div id="testimonial" data-section="testimonial">
       <TestimonialCardThirteen
       showRating={true}
-      animationType="none"
+      animationType="blur-reveal"
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
