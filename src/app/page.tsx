@@ -2,14 +2,15 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
+import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
-import { CheckCircle2, CalendarDays, MapPin, HandHeart, Heart, Award, ShieldCheck } from "lucide-react";
+import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users } from "lucide-react";
+import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 
 export default function LandingPage() {
   return (
@@ -67,25 +68,32 @@ export default function LandingPage() {
     />
   </div>
 
+  <div id="metric" data-section="metric">
+    <MetricCardSeven
+        title="Why Families Trust Palante"
+        description="We bring professional, human-centered coordination to the complexities of senior life transitions."
+        animationType="slide-up"
+        textboxLayout="split"
+        metrics={[
+            { id: "trust1", value: "100%", title: "Advocacy", items: ["Single point of contact", "Emotional support", "Independent guidance"] },
+            { id: "trust2", value: "20+", title: "Years Experience", items: ["California Licensed", "DRE Certified", "Community experts"] },
+            { id: "trust3", value: "4", title: "Regions Served", items: ["Orange County", "Los Angeles", "Riverside", "San Bernardino"] }
+        ]}
+    />
+  </div>
+
   <div id="feature" data-section="feature">
-      <FeatureCardTwentySeven
-      animationType="slide-up"
+      <FeatureCardEight
       textboxLayout="split"
-      title="Why Families Trust Palante"
-      description="We combine professional real estate expertise with deep senior care knowledge to advocate for your family."
+      useInvertedBackground={false}
       features={[
-        {
-          id: "t1",          title: "Real Estate Expertise",          descriptions: ["20 years of experience ensuring top dollar for family homes.", "Full service listing support."],
-        },
-        {
-          id: "t2",          title: "Personalized Advocacy",          descriptions: ["We personally tour communities to ensure they meet our standard.", "Always acting in the senior's best interest."],
-        },
-        {
-          id: "t3",          title: "Emotional Support",          descriptions: ["We provide the compassionate guidance that families need.", "Available to facilitate family conversations."],
-        }
+        { id: 1, title: "Step 1: Free Consultation", description: "We listen first — no pressure, no scripts. Just expert ears.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg?_wi=2", imageAlt: "Ronnie meeting a family during an initial consultation" },
+        { id: 2, title: "Step 2: Your Personalized Plan", description: "Every situation is different. Yours gets a custom roadmap.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-jlqq0vat.jpg?_wi=2", imageAlt: "Developing a customized transition roadmap" },
+        { id: 3, title: "Step 3: We Handle Everything", description: "We handle home sales, placement tours, and downsizing with you.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2", imageAlt: "Managing the home sale and downsizing process" },
+        { id: 4, title: "Step 4: Move-In Day", description: "From old home to new, fully set up and ready to enjoy.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg?_wi=2", imageAlt: "Settling into the new home on move-in day" },
       ]}
-      titleSegments={[{ type: 'text', content: 'Why Families Trust Palante' }]
-      }
+      title="Simplifying Every Step of Your Parent’s Transition"
+      description="Navigating a parent's major life transition is difficult. We specialize in managing the emotional and logistical heavy lifting with warmth and expertise."
     />
   </div>
 
@@ -93,16 +101,15 @@ export default function LandingPage() {
       <TestimonialCardThirteen
       showRating={true}
       animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={false}
+      textboxLayout="inline-image"
+      useInvertedBackground={true}
       testimonials={[
-        { id: "1", name: "Sarah Miller", handle: "SC, Orange", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5, icon: Heart },
+        { id: "1", name: "Sarah Miller", handle: "SC, Orange", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5, icon: MessageSquareHeart },
         { id: "2", name: "David Chen", handle: "DC, Irvine", testimonial: "The combination of real estate and placement services was exactly what we needed for Mom.", rating: 5, icon: Award },
-        { id: "3", name: "Elena Rodriguez", handle: "ER, Riverside", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5, icon: ShieldCheck },
-        { id: "4", name: "Robert Johnson", handle: "RJ, San Bernardino", testimonial: "One point of contact for the house sale, placement, and downsizing. An absolutely seamless experience.", rating: 5, icon: Heart },
+        { id: "3", name: "Elena Rodriguez", handle: "ER, Riverside", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5, icon: Users },
       ]}
-      title="Our Families' Success Stories"
-      description="We specialize in bridging the gap between real estate and care management—here is how families feel on the other side of a transition."
+      title="Trust Built Through Results"
+      description="From before to after, we stay by your side until your family is settled and secure."
     />
   </div>
 
