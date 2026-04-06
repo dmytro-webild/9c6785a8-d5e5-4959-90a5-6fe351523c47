@@ -34,6 +34,7 @@ export default function ServicesPage() {
               { name: "Contact", id: "/contact" }
             ]}
             brandName="Palante STS"
+            button={{ text: "Get Started", href: "/contact" }}
           />
         </div>
 
