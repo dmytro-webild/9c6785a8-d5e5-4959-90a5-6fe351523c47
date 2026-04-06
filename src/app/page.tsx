@@ -43,8 +43,8 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardTestimonial
-      title="Overwhelmed by Your Parent's Move? We Understand"
-      description="California-licensed Senior Transition Specialist serving Orange, Los Angeles, Riverside, and San Bernardino counties, focusing on real estate, placement, and downsizing as one seamless process."
+      title="We Help Families Navigate Senior Transitions with Compassion and Clarity"
+      description="Expert guidance for downsizing, move management, senior living transitions, home sale support, and family peace of mind in Los Angeles, Orange, Riverside, and San Bernardino Counties."
       background={{ variant: "plain" }}
       testimonials={[
         { name: "Sarah Miller", handle: "SC, Orange", testimonial: "Palante STS transformed a stressful transition into a seamless experience. Their care is unmatched.", rating: 5 },
@@ -52,8 +52,8 @@ export default function LandingPage() {
         { name: "Elena Rodriguez", handle: "ER, Riverside", testimonial: "Kind, patient, and deeply knowledgeable. They truly made 'pa'lante' feel real.", rating: 5 }
       ]}
       buttons={[
-        { text: "Schedule a Free Consultation", href: "/contact" },
-        { text: "See Our Process", href: "/how-it-works" },
+        { text: "Book a Free Consultation", href: "/contact" },
+        { text: "Get the Free Home Safety Checklist", href: "/resources" },
       ]}
       avatarText="Trusted by families across SoCal"
       className="py-20"
