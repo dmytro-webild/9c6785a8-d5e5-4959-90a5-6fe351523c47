@@ -99,6 +99,8 @@ export default function HowItWorksPage() {
               { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
               { title: "Contact", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704" }, { label: "Privacy Policy" }] }
             ]}
+            bottomLeftText="© 2024 Palante STS. All rights reserved."
+            bottomRightText="Built with integrity."
           />
         </div>
       </ReactLenis>
