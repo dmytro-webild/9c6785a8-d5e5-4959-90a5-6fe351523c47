@@ -9,7 +9,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
 import { CheckCircle2, CalendarDays, MapPin, HandHeart } from "lucide-react";
 
 export default function LandingPage() {
@@ -69,17 +69,14 @@ export default function LandingPage() {
   </div>
 
   <div id="lead-capture" data-section="lead-capture">
-    <ContactSplitForm 
-      title="Free Guide: 7 Signs It’s Time to Transition Your Aging Parent"
-      description="Navigating the transition to senior living is an emotional journey. Our guide provides clarity and practical steps to help you make informed, confident decisions for your family's future."
-      buttonText="Send Me the Guide"
-      inputs={[
-        { name: "email", type: "email", placeholder: "Enter your email", required: true }
-      ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2"
-      mediaPosition="left"
-      useInvertedBackground={true}
-      className="py-20"
+    <ContactSplit
+        tag="Free Resource"
+        title="Free Guide: 7 Signs It’s Time to Transition Your Aging Parent"
+        description="Navigating this journey is heavy. We've compiled 7 key signs to help you gain clarity and confidence in making the right decisions for your loved one's comfort and well-being."
+        buttonText="Send Me the Guide"
+        mediaPosition="left"
+        imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2"
+        imageAlt="Helpful guide visualization"
     />
   </div>
 
@@ -88,10 +85,10 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        { title: "Step 1: Free Consultation", description: "We listen first — no pressure, no scripts. Just expert ears.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg?_wi=2", imageAlt: "Ronnie meeting a family during an initial consultation" },
-        { title: "Step 2: Your Personalized Plan", description: "Every situation is different. Yours gets a custom roadmap.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-jlqq0vat.jpg?_wi=2", imageAlt: "Developing a customized transition roadmap" },
-        { title: "Step 3: We Handle Everything", description: "We handle home sales, placement tours, and downsizing with you.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2", imageAlt: "Managing the home sale and downsizing process" },
-        { title: "Step 4: Move-In Day", description: "From old home to new, fully set up and ready to enjoy.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg?_wi=2", imageAlt: "Settling into the new home on move-in day" },
+        { id: 1, title: "Step 1: Free Consultation", description: "We listen first — no pressure, no scripts. Just expert ears.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg?_wi=2", imageAlt: "Ronnie meeting a family during an initial consultation" },
+        { id: 2, title: "Step 2: Your Personalized Plan", description: "Every situation is different. Yours gets a custom roadmap.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-jlqq0vat.jpg?_wi=2", imageAlt: "Developing a customized transition roadmap" },
+        { id: 3, title: "Step 3: We Handle Everything", description: "We handle home sales, placement tours, and downsizing with you.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2", imageAlt: "Managing the home sale and downsizing process" },
+        { id: 4, title: "Step 4: Move-In Day", description: "From old home to new, fully set up and ready to enjoy.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg?_wi=2", imageAlt: "Settling into the new home on move-in day" },
       ]}
       title="Simplifying Every Step of Your Parent’s Transition"
       description="Navigating a parent's major life transition is difficult. We specialize in managing the emotional and logistical heavy lifting with warmth and expertise."
