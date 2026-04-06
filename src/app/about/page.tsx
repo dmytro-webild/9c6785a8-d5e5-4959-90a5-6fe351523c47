@@ -6,7 +6,6 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
-import { HandHeart, Scale, MapPin, Users } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -27,8 +26,8 @@ export default function AboutPage() {
             <NavbarStyleCentered
                 navItems={[
                     { name: "Home", id: "/" },
-                    { name: "Services", id: "/services" },
                     { name: "How It Works", id: "/how-it-works" },
+                    { name: "Services", id: "/services" },
                     { name: "About", id: "/about" },
                     { name: "Resources", id: "/resources" },
                     { name: "Contact", id: "/contact" }

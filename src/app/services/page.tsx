@@ -29,8 +29,10 @@ export default function ServicesPage() {
           <NavbarLayoutFloatingInline
             navItems={[
               { name: "Home", id: "/" },
+              { name: "How It Works", id: "/how-it-works" },
               { name: "Services", id: "/services" },
               { name: "About", id: "/about" },
+              { name: "Resources", id: "/resources" },
               { name: "Contact", id: "/contact" }
             ]}
             brandName="Palante STS"
