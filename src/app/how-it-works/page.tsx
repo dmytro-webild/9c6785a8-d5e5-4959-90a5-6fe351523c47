@@ -76,18 +76,19 @@ export default function HowItWorksPage() {
 
         <div id="faq" data-section="faq">
           <FaqBase
-            textboxLayout="default"
+            textboxLayout="split"
             useInvertedBackground={false}
+            title="Compassionate Answers for Your Family's Transition"
+            description="We know this is a deeply personal time for your family. Here are answers to the most common questions we receive to help you feel supported and informed as you take the next step."
             faqs={[
-              { id: "q1", title: "Is there a cost for your placement services?", content: "No — placement is completely free to families. Senior communities pay our fees."},
-              { id: "q2", title: "Do we have to use your real estate services?", content: "Never — but most families find it far easier to use one trusted expert for everything."},
-              { id: "q3", title: "How long does a typical transition take?", content: "It varies based on urgency and circumstances; we typically plan for 30–120 days."},
-              { id: "q4", title: "What if my parent doesn't want to move?", content: "We’ve helped many families navigate this; it always starts with active, empathetic listening."},
-              { id: "q5", title: "Do you only serve Orange County?", content: "We proudly serve Orange, LA, Riverside, and San Bernardino counties."},
-              { id: "q6", title: "What kind of communities do you work with?", content: "The full spectrum: board and care homes, assisted living, memory care, and 55+ communities."}
+              { id: "q1", title: "When is the right time to transition?", content: "There is no perfect time, but when daily home life becomes a source of stress or safety concern rather than comfort, it's a gentle signal to explore options. We help you identify those signs with kindness." },
+              { id: "q2", title: "How do we handle resistance from a loved one?", content: "Resistance is often a form of fear or loss of control. We start with active, empathetic listening, focusing on their preferences and dignity, rather than just logistics." },
+              { id: "q3", title: "How does your downsizing support work?", content: "We treat your family home with reverence. We guide you through sorting with patience, ensuring heirlooms are kept or rehomed according to your wishes, not just discarded." },
+              { id: "q4", title: "What about selling the family home?", content: "As licensed real estate specialists, we manage everything from property prep to closing, focusing on getting top dollar while shielding your family from the daily stress of the sale process." },
+              { id: "q5", title: "How do we ensure the right community placement?", content: "We personally tour and vet communities to find places that match not just your loved one’s care needs, but their personality, cultural values, and interests. We are your advocate throughout the process." },
+              { id: "q6", title: "How do we begin this process with you?", content: "Simply reach out for a no-obligation conversation. We are here to listen to your story, understand your goals, and provide the clarity you deserve. Your path forward starts with a single, comfortable step." }
             ]}
-            title="Frequently Asked Questions"
-            description="Clear answers to your most pressing questions about the transition process."
+            buttons={[{ text: "Book Your Gentle Consultation", href: "/contact" }]}
             faqsAnimation="slide-up"
           />
         </div>
