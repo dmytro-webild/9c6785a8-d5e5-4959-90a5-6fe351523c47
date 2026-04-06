@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
-import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
@@ -125,14 +125,16 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterLogoEmphasis
-      columns={[
-        { items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
-        { items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
-        { items: [{ label: "≡ (213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
-      ]}
-      logoText="Palante STS"
-    />
+      <FooterMedia
+        logoText="Palante STS"
+        imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2"
+        columns={[
+            { title: "Navigate", items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
+            { title: "Support", items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
+            { title: "Legal & Contact", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] }
+        ]}
+        copyrightText="© 2025 | Palante Senior Transition Specialists"
+      />
   </div>
       </ReactLenis>
     </ThemeProvider>
