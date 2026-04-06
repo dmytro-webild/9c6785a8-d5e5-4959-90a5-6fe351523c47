@@ -44,19 +44,19 @@ export default function HomePage() {
             features={[
               { 
                 title: "We Assess the Situation", 
-                description: "We start by listening deeply to understand your family's unique needs, challenges, and goals for the transition.",                videoSrc: "https://example.com/video1.mp4"
+                description: "We start by listening deeply to understand your family's unique needs, challenges, and goals for the transition.",                imageSrc: "https://example.com/video1.mp4"
               },
               { 
                 title: "We Build a Personalized Transition Plan", 
-                description: "We create a clear, compassionate roadmap tailored to your specific timeline, budget, and emotional needs.",                videoSrc: "https://example.com/video2.mp4"
+                description: "We create a clear, compassionate roadmap tailored to your specific timeline, budget, and emotional needs.",                imageSrc: "https://example.com/video2.mp4"
               },
               { 
                 title: "We Coordinate Downsizing and Move Preparation", 
-                description: "We handle the logistics of sorting, packing, and preparing your home for sale so you can focus on being present for your loved one.",                videoSrc: "https://example.com/video3.mp4"
+                description: "We handle the logistics of sorting, packing, and preparing your home for sale so you can focus on being present for your loved one.",                imageSrc: "https://example.com/video3.mp4"
               },
               { 
                 title: "We Support the Next Housing Decision", 
-                description: "We personally vet senior communities and guide you through the placement process to ensure a secure, comfortable new home.",                videoSrc: "https://example.com/video4.mp4"
+                description: "We personally vet senior communities and guide you through the placement process to ensure a secure, comfortable new home.",                imageSrc: "https://example.com/video4.mp4"
               }
             ]}
           />
@@ -70,6 +70,7 @@ export default function HomePage() {
               { text: "Download the Free Guide", href: "/resources" }
             ]}
             background={{ variant: "sparkles-gradient" }}
+            useInvertedBackground={false}
           />
         </div>
 
