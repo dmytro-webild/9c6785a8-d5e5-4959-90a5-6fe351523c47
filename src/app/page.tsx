@@ -33,7 +33,8 @@ export default function HomePage() {
               { name: "Home", id: "/" },
               { name: "How It Works", id: "/how-it-works" },
               { name: "About", id: "/about" },
-              { name: "Contact", id: "/contact" }
+              { name: "Contact", id: "/contact" },
+              { name: "Partner", id: "/referral-partner" }
             ]}
             brandName="Palante STS"
           />
@@ -132,7 +133,7 @@ export default function HomePage() {
             logoText="Palante STS"
             columns={[
               { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "About", href: "/about" }] },
-              { title: "Company", items: [{ label: "Contact", href: "/contact" }] },
+              { title: "Company", items: [{ label: "Referral Partner", href: "/referral-partner" }, { label: "Contact", href: "/contact" }] },
               { title: "Support", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }] }
             ]}
           />
