@@ -9,6 +9,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import { CheckCircle2, CalendarDays, MapPin, HandHeart } from "lucide-react";
 
 export default function LandingPage() {
@@ -64,6 +65,20 @@ export default function LandingPage() {
           { type: 'text-icon', text: "Placement Free to Families", icon: HandHeart }
       ]}
       marqueeSpeed={20}
+    />
+  </div>
+
+  <div id="lead-capture" data-section="lead-capture">
+    <ContactSplitForm 
+      tag="Free Resource"
+      title="Free Guide: 7 Signs It’s Time to Transition Your Aging Parent"
+      description="Navigating the transition to senior living is an emotional journey. Our guide provides clarity and practical steps to help you make informed, confident decisions for your family's future."
+      buttonText="Send Me the Guide"
+      inputPlaceholder="Enter your email"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2"
+      mediaPosition="left"
+      useInvertedBackground={true}
+      className="py-20"
     />
   </div>
 
