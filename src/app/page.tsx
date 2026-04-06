@@ -9,7 +9,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users, Building2, Landmark, Mountain, TreeDeciduous } from "lucide-react";
+import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users } from "lucide-react";
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 
 export default function LandingPage() {
