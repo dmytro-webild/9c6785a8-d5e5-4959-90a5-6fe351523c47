@@ -69,6 +69,17 @@ export default function LandingPage() {
     />
   </div>
 
+  <div id="lead-capture" data-section="lead-capture">
+    <ContactCenter
+      tag="Helpful Resource"
+      title="7 Signs It Is Time to Transition Your Aging Parent"
+      description="Recognizing the signs that your aging parent may need extra support is a big step. This free guide offers a gentle, non-pushy look at common indicators so you can feel more informed and prepared when you're ready."
+      buttonText="Send Me the Guide"
+      background={{ variant: "sparkles-gradient" }}
+      useInvertedBackground={true}
+    />
+  </div>
+
   <div id="metric" data-section="metric">
     <MetricCardSeven
         title="Why Families Trust Palante"
@@ -81,18 +92,6 @@ export default function LandingPage() {
             { id: "trust2", value: "20+", title: "Years Experience", items: ["California Licensed", "DRE Certified", "Community experts"] },
             { id: "trust3", value: "4", title: "Regions Served", items: ["Orange County", "Los Angeles", "Riverside", "San Bernardino"] }
         ]}
-    />
-  </div>
-
-  <div id="lead-capture" data-section="lead-capture">
-    <ContactCenter
-      tag="Helpful Resources"
-      title="7 Signs It Is Time to Transition Your Aging Parent"
-      description="Deciding when to move can feel overwhelming. We've created a gentle, comprehensive guide to help you recognize the signs that it might be time to seek more support for your loved one. Download this free guide to gain clarity for your next steps."
-      background={{ variant: "sparkles-gradient" }}
-      useInvertedBackground={false}
-      buttonText="Send Me the Guide"
-      inputPlaceholder="Enter your email"
     />
   </div>
 
