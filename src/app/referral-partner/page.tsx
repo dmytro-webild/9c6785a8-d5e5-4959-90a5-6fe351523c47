@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import { Handshake, Search, ArrowRight, ShieldCheck } from "lucide-react";
+import { Handshake, Search, Target, ShieldCheck } from "lucide-react";
 import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
 import ContactSplit from "@/components/sections/contact/ContactSplit";
 import FeatureBorderGlow from "@/components/sections/feature/featureBorderGlow/FeatureBorderGlow";
@@ -40,7 +40,7 @@ export default function ReferralPartnerPage() {
 
         <div id="hero" data-section="hero">
           <ContactSplit
-            tag="For Communities"
+            tag="Partnership"
             title="A Trusted Transition Partner for Senior Living Communities"
             description="We bridge the gap for families, ensuring they arrive at your community informed, prepared, and ready to call it home. Partner with Palante to streamline the admission process for both your team and new residents."
             background={{ variant: "sparkles-gradient" }}
@@ -50,24 +50,32 @@ export default function ReferralPartnerPage() {
 
         <div id="pain-points" data-section="pain-points">
           <FeatureBorderGlow
-            title="Solving Community Challenges"
-            description="We address the friction points that delay admissions and increase family stress."
+            title="Common Community Challenges"
+            description="We help you overcome the friction points that delay admissions and increase family stress during the transition process."
             animationType="slide-up"
             textboxLayout="split"
             useInvertedBackground={true}
             features={[
-              { icon: Search, title: "Qualified Leads", description: "We work with families who are educated about the process and ready for the next step." },
-              { icon: Handshake, title: "Reduced Drop-off", description: "By supporting the emotional and logistical move, we ensure families stay committed to their choice of your community." },
-              { icon: ShieldCheck, title: "Streamlined Admissions", description: "Our detailed logistics support helps families clear the hurdles of downsizing and selling their homes quickly." }
+              { icon: Search, title: "Navigating Care Options", description: "We work with families who are educated about the process and ready for the next step." },
+              { icon: Target, title: "Qualified Admissions", description: "By managing the logistics, we ensure families stay committed and prepared for your specific community." },
+              { icon: ShieldCheck, title: "Streamlined Downsizing", description: "Our detailed logistics support helps families clear the hurdles of selling their homes and downsizing quickly." }
             ]}
+          />
+        </div>
+
+        <div id="process" data-section="process">
+          <ContactText
+            text="Palante STS simplifies transitions by serving as your partner in family advocacy, managing the complex move process so families can transition to your community with confidence."
+            background={{ variant: "plain" }}
+            useInvertedBackground={false}
           />
         </div>
 
         <div id="trust-section" data-section="trust-section">
           <ContactText
-            text="Palante STS acts as an extension of your community's values, providing the bridge that turns prospects into successful long-term residents."
-            background={{ variant: "plain" }}
-            useInvertedBackground={false}
+            text="Why partner with us? We offer 20+ years of local expertise in Southern California, serving as a trusted bridge between families and your community values."
+            background={{ variant: "rotated-rays-static" }}
+            useInvertedBackground={true}
           />
         </div>
 
