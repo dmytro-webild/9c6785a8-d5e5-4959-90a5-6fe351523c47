@@ -3,11 +3,12 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FaqBase from '@/components/sections/faq/FaqBase';
-import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
+import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
+import { ClipboardCheck, Target, Users, Home, Sparkles } from "lucide-react";
 
-export default function LandingPage() {
+export default function HowItWorksPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="hover-magnetic"
@@ -38,37 +39,38 @@ export default function LandingPage() {
   </div>
 
   <div id="feature" data-section="feature">
-      <FeatureCardSeven
+      <FeatureBorderGlow
       animationType="slide-up"
       textboxLayout="split"
       useInvertedBackground={false}
-      title="Our 4-Step Process"
-      description="We ensure your family transitions with clarity, confidence, and peace of mind through a predictable 4-step framework."
+      title="Our 5-Step Path to Peace of Mind"
+      description="We guide your family through every phase of the senior transition with empathy, clarity, and expert coordination."
       features={[
         { 
-          id: 1, 
-          title: "Step 1: Free Consultation", 
-          description: "We listen first — no pressure, no scripts. Just expert ears.", 
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg?_wi=1",          imageAlt: "Ronnie meeting a family during an initial consultation"
+          icon: ClipboardCheck,
+          title: "We Assess the Situation", 
+          description: "We start by listening deeply to understand your family's unique needs, challenges, and goals for the transition."
         },
         { 
-          id: 2, 
-          title: "Step 2: Your Personalized Plan", 
-          description: "Every situation is different. Yours gets a custom roadmap.", 
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-jlqq0vat.jpg?_wi=1",          imageAlt: "Developing a customized transition roadmap"
+          icon: Target,
+          title: "We Build a Personalized Transition Plan", 
+          description: "We create a clear, compassionate roadmap tailored to your specific timeline, budget, and emotional needs."
         },
         { 
-          id: 3, 
-          title: "Step 3: We Handle Everything", 
-          description: "We handle home sales, placement tours, and downsizing with you.", 
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=1",          imageAlt: "Managing the home sale and downsizing process"
+          icon: Users,
+          title: "We Coordinate Downsizing and Move Preparation", 
+          description: "We handle the logistics of sorting, packing, and preparing your home for sale so you can focus on being present for your loved one."
         },
         { 
-          id: 4, 
-          title: "Step 4: Move-In Day", 
-          description: "From old home to new, fully set up and ready to enjoy.", 
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg?_wi=1",          imageAlt: "Settling into the new home on move-in day"
+          icon: Home,
+          title: "We Support the Next Housing Decision", 
+          description: "We personally vet senior communities and guide you through the placement process to ensure a secure, comfortable new home."
         },
+        { 
+          icon: Sparkles,
+          title: "We Help You Move Forward with Peace of Mind", 
+          description: "From move-in day to settling in, we stay by your side to ensure the transition is smooth, respectful, and dignified."
+        }
       ]}
     />
   </div>
@@ -83,7 +85,7 @@ export default function LandingPage() {
         { id: "q3", title: "How long does a typical transition take?", content: "It varies based on urgency and circumstances; we typically plan for 30–120 days."},
         { id: "q4", title: "What if my parent doesn't want to move?", content: "We’ve helped many families navigate this; it always starts with active, empathetic listening."},
         { id: "q5", title: "Do you only serve Orange County?", content: "We proudly serve Orange, LA, Riverside, and San Bernardino counties."},
-        { id: "q6", title: "What kind of communities do you work with?", content: "The full spectrum: board and care homes, assisted living, memory care, and 55+ communities."},
+        { id: "q6", title: "What kind of communities do you work with?", content: "The full spectrum: board and care homes, assisted living, memory care, and 55+ communities.},
       ]}
       title="Frequently Asked Questions"
       description="Clear answers to your most pressing questions about the transition process."
