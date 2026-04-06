@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import { Handshake, Search, Target, ShieldCheck } from "lucide-react";
+import { Handshake, Search, Target, ShieldCheck, Users, Briefcase, FileText } from "lucide-react";
 import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
 import ContactSplit from "@/components/sections/contact/ContactSplit";
 import FeatureBorderGlow from "@/components/sections/feature/featureBorderGlow/FeatureBorderGlow";
@@ -40,9 +40,9 @@ export default function ReferralPartnerPage() {
 
         <div id="hero" data-section="hero">
           <ContactSplit
-            tag="Partnership"
-            title="A Trusted Transition Partner for Senior Living Communities"
-            description="We bridge the gap for families, ensuring they arrive at your community informed, prepared, and ready to call it home. Partner with Palante to streamline the admission process for both your team and new residents."
+            tag="For Professionals"
+            title="A Trusted Transition Coordination Partner"
+            description="We serve as an extension of your professional practice, providing the logistics, real estate oversight, and senior placement coordination your clients need to navigate complex transitions with grace and efficiency."
             background={{ variant: "sparkles-gradient" }}
             useInvertedBackground={false}
           />
@@ -50,30 +50,31 @@ export default function ReferralPartnerPage() {
 
         <div id="pain-points" data-section="pain-points">
           <FeatureBorderGlow
-            title="Common Community Challenges"
-            description="We help you overcome the friction points that delay admissions and increase family stress during the transition process."
+            title="Why Professionals Refer to Palante"
+            description="We bridge the gap for your clients, ensuring they arrive at their next chapter prepared, informed, and supported. We handle the heavy lifting so you can focus on your professional expertise."
             animationType="slide-up"
             textboxLayout="split"
             useInvertedBackground={true}
             features={[
-              { icon: Search, title: "Navigating Care Options", description: "We work with families who are educated about the process and ready for the next step." },
-              { icon: Target, title: "Qualified Admissions", description: "By managing the logistics, we ensure families stay committed and prepared for your specific community." },
-              { icon: ShieldCheck, title: "Streamlined Downsizing", description: "Our detailed logistics support helps families clear the hurdles of selling their homes and downsizing quickly." }
+              { icon: Briefcase, title: "Expert Transition Management", description: "From downsizing coordination to logistical hurdles, we manage every detail to prevent family friction and delays." },
+              { icon: Handshake, title: "Seamless Professional Collaboration", description: "We work closely with attorneys, fiduciaries, and advisors to ensure the transition aligns perfectly with legal and financial strategies." },
+              { icon: Users, title: "Concierge Placement Support", description: "We guide families through the maze of senior living options, finding the right fit that honors their lifestyle and care needs." },
+              { icon: ShieldCheck, title: "Dignified Advocacy", description: "Our calm, professional presence serves as a trusted guide, reducing family stress and preserving client relationships for your practice." }
             ]}
-          />
-        </div>
-
-        <div id="process" data-section="process">
-          <ContactText
-            text="Palante STS simplifies transitions by serving as your partner in family advocacy, managing the complex move process so families can transition to your community with confidence."
-            background={{ variant: "plain" }}
-            useInvertedBackground={false}
           />
         </div>
 
         <div id="trust-section" data-section="trust-section">
           <ContactText
-            text="Why partner with us? We offer 20+ years of local expertise in Southern California, serving as a trusted bridge between families and your community values."
+            text="How Palante Supports Your Clients: We provide a single, dedicated point of contact who acts as an advocate, logistics manager, and emotional anchor for families in transition."
+            background={{ variant: "plain" }}
+            useInvertedBackground={false}
+          />
+        </div>
+
+        <div id="process" data-section="process">
+          <ContactText
+            text="Valuable Referral Benefits: By partnering with Palante, you ensure your clients receive the white-glove logistical support required for successful, timely transitions, allowing you to focus on your specialized counsel."
             background={{ variant: "rotated-rays-static" }}
             useInvertedBackground={true}
           />
@@ -82,8 +83,8 @@ export default function ReferralPartnerPage() {
         <div id="cta-strip" data-section="cta-strip">
           <ContactCTA
             tag="Partnership"
-            title="Let's Discuss a Partnership"
-            description="Discover how Palante STS can support your admissions goals and provide a higher standard of care for prospective families."
+            title="Join Our Referral Network"
+            description="We welcome inquiries from trusted senior service professionals who share our commitment to families. Let's discuss how we can become your go-to transition partner."
             buttons={[{ text: "Request a Partnership Conversation", href: "/contact" }]}
             background={{ variant: "sparkles-gradient" }}
             useInvertedBackground={false}
