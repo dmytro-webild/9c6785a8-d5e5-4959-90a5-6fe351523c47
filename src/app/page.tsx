@@ -9,7 +9,8 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import { CheckCircle2, CalendarDays, MapPin, HandHeart } from "lucide-react";
+import { CheckCircle2, CalendarDays, MapPin, HandHeart, HeartPulse } from "lucide-react";
+import FeatureCardTen from '@/components/sections/feature/FeatureCardTen';
 
 export default function LandingPage() {
   return (
@@ -65,6 +66,30 @@ export default function LandingPage() {
       ]}
       marqueeSpeed={20}
     />
+  </div>
+
+  <div id="emotional-support" data-section="emotional-support">
+      <FeatureCardTen
+        title="Helping Aging Parents Is Hard. You Shouldn’t Have to Figure It Out Alone."
+        description="Navigating the transition of a loved one can be emotionally draining and logistically overwhelming. Palante provides the professional guidance and compassionate advocacy you need to manage this journey with dignity and confidence."
+        textboxLayout="split"
+        animationType="slide-up"
+        useInvertedBackground={true}
+        features={[
+            {
+                title: "Why Palante Helps",                description: "We act as your dedicated advocate, streamlining complex logistics and providing emotional space for families to breathe.",                media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg" },
+                items: [
+                    { icon: HeartPulse, text: "Endless phone calls with communities" },
+                    { icon: HeartPulse, text: "Emotional strain of downsizing a home" },
+                    { icon: HeartPulse, text: "Conflicting advice from others" },
+                    { icon: HeartPulse, text: "Guilt, grief, and physical exhaustion" },
+                    { icon: HeartPulse, text: "Urgent medical or living decisions" }
+                ],
+                reverse: false
+            }
+        ]}
+        buttons={[{ text: "Talk to Palante", href: "/contact" }]}
+      />
   </div>
 
   <div id="feature" data-section="feature">
