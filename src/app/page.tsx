@@ -11,7 +11,6 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users } from "lucide-react";
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
-import ContactCenter from '@/components/sections/contact/ContactCenter';
 
 export default function LandingPage() {
   return (
@@ -66,17 +65,6 @@ export default function LandingPage() {
           { type: 'text-icon', text: "Placement Free to Families", icon: HandHeart }
       ]}
       marqueeSpeed={20}
-    />
-  </div>
-
-  <div id="lead-capture" data-section="lead-capture">
-    <ContactCenter
-      tag="Helpful Resource"
-      title="7 Signs It Is Time to Transition Your Aging Parent"
-      description="Recognizing the signs that your aging parent may need extra support is a big step. This free guide offers a gentle, non-pushy look at common indicators so you can feel more informed and prepared when you're ready."
-      buttonText="Send Me the Guide"
-      background={{ variant: "sparkles-gradient" }}
-      useInvertedBackground={true}
     />
   </div>
 
