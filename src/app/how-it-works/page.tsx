@@ -2,12 +2,9 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
-import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
-import FooterSimple from '@/components/sections/footer/FooterSimple';
-import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import ContactText from '@/components/sections/contact/ContactText';
-import { ClipboardCheck, Target, Users, Home, Sparkles, Heart } from "lucide-react";
+import FaqSplitText from '@/components/sections/faq/FaqSplitText';
+import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 
 export default function HowItWorksPage() {
   return (
@@ -25,60 +22,23 @@ export default function HowItWorksPage() {
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
-          <NavbarLayoutFloatingOverlay
+          <NavbarStyleCentered
             navItems={[
               { name: "Home", id: "/" },
               { name: "How It Works", id: "/how-it-works" },
               { name: "Services", id: "/services" },
               { name: "About", id: "/about" },
-              { name: "Resources", id: "/resources" },
               { name: "Contact", id: "/contact" }
             ]}
-            brandName="Palante STS"
-          />
-        </div>
-
-        <div id="intro" data-section="intro">
-          <FeatureBorderGlow
-            animationType="blur-reveal"
-            textboxLayout="default"
-            useInvertedBackground={false}
-            title="Our 5-Step Path to Peace of Mind"
-            description="We guide your family through every phase of the senior transition with empathy, clarity, and expert coordination."
-            features={[]}
-          />
-        </div>
-
-        <div id="emotional-recognition" data-section="emotional-recognition">
-           <ContactText
-             text="We recognize that this process is more than a list of tasks; it's a profound life transition. We honor your emotions and treat your family's story with the dignity it deserves."
-             background={{ variant: "plain" }}
-             useInvertedBackground={true}
-           />
-        </div>
-
-        <div id="process" data-section="process">
-          <FeatureBorderGlow
-            animationType="slide-up"
-            textboxLayout="split"
-            useInvertedBackground={false}
-            title="The Process"
-            description="Clear, organized steps forward."
-            features={[
-              { icon: ClipboardCheck, title: "Listen & Assess", description: "We listen deeply to understand your family's unique needs, challenges, and goals." },
-              { icon: Target, title: "Personalized Plan", description: "We create a compassionate roadmap tailored to your timeline, budget, and needs." },
-              { icon: Users, title: "Coordinate Transition", description: "We manage logistics of sorting and preparing the home for sale." },
-              { icon: Home, title: "Support Housing Decision", description: "We vet communities and guide your placement process to ensure a secure, comfortable home." },
-              { icon: Sparkles, title: "Move Forward", description: "From move-in to settling in, we stay by your side for a smooth, respectful transition." }
-            ]}
+            logoText="Palante STS"
           />
         </div>
 
         <div id="faq" data-section="faq">
-          <FaqSplitMedia
-            textboxLayout="split"
+          <FaqSplitText
             useInvertedBackground={true}
-            title="Common Questions"
+            sideTitle="Common Questions"
+            sideDescription="Get the answers you need about our transition support services."
             faqsAnimation="slide-up"
             faqs={[
               { id: "q1", title: "How do we begin?", content: "Reach out for a no-obligation conversation. We are here to listen and help." },
@@ -87,22 +47,15 @@ export default function HowItWorksPage() {
           />
         </div>
 
-        <div id="cta" data-section="cta">
-           <ContactText
-             text="Ready to start your path forward?"
-             buttons={[{ text: "Schedule Your Call", href: "/contact" }]}
-             background={{ variant: "sparkles-gradient" }}
-             useInvertedBackground={false}
-           />
-        </div>
-
         <div id="footer" data-section="footer">
-          <FooterSimple
+          <FooterBaseCard
+            logoText="Palante STS"
             columns={[
               { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
-              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
-              { title: "Contact", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704" }] }
+              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Contact", href: "/contact" }] }
             ]}
+            bottomLeftText="© 2025 Palante STS"
+            bottomRightText="All rights reserved."
           />
         </div>
       </ReactLenis>
