@@ -11,7 +11,6 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users } from "lucide-react";
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
-import FeatureCardNineteen from '@/components/sections/feature/FeatureCardNineteen';
 
 export default function LandingPage() {
   return (
@@ -55,7 +54,7 @@ export default function LandingPage() {
       ]}
       buttons={[
         { text: "Book a Free Consultation", href: "/contact" },
-        { text: "Get the Free Home Safety Checklist", href: "/resources" }
+        { text: "Get the Free Home Safety Checklist", href: "/resources" },
       ]}
       avatarText="Trusted by families across SoCal"
       className="py-20"
@@ -66,21 +65,6 @@ export default function LandingPage() {
           { type: 'text-icon', text: "Placement Free to Families", icon: HandHeart }
       ]}
       marqueeSpeed={20}
-    />
-  </div>
-
-  <div id="local-authority" data-section="local-authority">
-    <FeatureCardNineteen
-        title="Your Trusted Local Authority in SoCal"
-        description="We provide localized, on-the-ground support across Southern California's key regions."
-        textboxLayout="split"
-        useInvertedBackground={true}
-        features={[
-            { tag: "Orange County", title: "Full Regional Coverage", subtitle: "Serving Irvine, Newport Beach, Huntington Beach, and beyond.", description: "Deep local expertise in OC real estate markets and senior communities." },
-            { tag: "Los Angeles", title: "Local LA Insight", subtitle: "Serving Santa Monica, Pasadena, Torrance, and more.", description: "Navigating the diversity of Los Angeles County's housing landscape." },
-            { tag: "Riverside", title: "Inland Empire Expertise", subtitle: "Serving Riverside, Temecula, Corona, and beyond.", description: "Connecting families to quality care and support services across Riverside." },
-            { tag: "San Bernardino", title: "Serving the San Bernardino Hub", subtitle: "Serving Ontario, Rancho Cucamonga, Chino, and more.", description: "Delivering dedicated transition support throughout the San Bernardino County area." }
-        ]}
     />
   </div>
 
@@ -107,7 +91,7 @@ export default function LandingPage() {
         { title: "Step 1: Free Consultation", description: "We listen first — no pressure, no scripts. Just expert ears.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024464999-3a108hqh.jpg?_wi=2", imageAlt: "Ronnie meeting a family during an initial consultation" },
         { title: "Step 2: Your Personalized Plan", description: "Every situation is different. Yours gets a custom roadmap.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-jlqq0vat.jpg?_wi=2", imageAlt: "Developing a customized transition roadmap" },
         { title: "Step 3: We Handle Everything", description: "We handle home sales, placement tours, and downsizing with you.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2", imageAlt: "Managing the home sale and downsizing process" },
-        { title: "Step 4: Move-In Day", description: "From old home to new, fully set up and ready to enjoy.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg?_wi=2", imageAlt: "Settling into the new home on move-in day" }
+        { title: "Step 4: Move-In Day", description: "From old home to new, fully set up and ready to enjoy.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-s8c2hkkm.jpg?_wi=2", imageAlt: "Settling into the new home on move-in day" },
       ]}
       title="Simplifying Every Step of Your Parent’s Transition"
       description="Navigating a parent's major life transition is difficult. We specialize in managing the emotional and logistical heavy lifting with warmth and expertise."
