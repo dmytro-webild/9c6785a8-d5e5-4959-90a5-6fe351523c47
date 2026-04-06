@@ -90,6 +90,7 @@ export default function LandingPage() {
       title="7 Signs It Is Time to Transition Your Aging Parent"
       description="Deciding when to move can feel overwhelming. We've created a gentle, comprehensive guide to help you recognize the signs that it might be time to seek more support for your loved one. Download this free guide to gain clarity for your next steps."
       background={{ variant: "sparkles-gradient" }}
+      useInvertedBackground={false}
       buttonText="Send Me the Guide"
       inputPlaceholder="Enter your email"
     />
