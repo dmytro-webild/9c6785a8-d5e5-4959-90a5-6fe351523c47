@@ -88,7 +88,9 @@ export default function HomePage() {
             textboxLayout="default"
             useInvertedBackground={false}
             testimonials={[
-                { id: "t1", name: "Sarah J.", handle: "Los Angeles", testimonial: "Ronnie provided not just expert guidance through our move, but a sense of calm that made all the difference during such a vulnerable time.", rating: 5 }
+                { id: "t1", name: "Sarah J.", handle: "Los Angeles", testimonial: "Ronnie provided not just expert guidance through our move, but a sense of calm that made all the difference during such a vulnerable time.", rating: 5 },
+                { id: "t2", name: "Mark & Elena R.", handle: "Orange County", testimonial: "The transition felt overwhelming until we partnered with Palante. They managed the coordination perfectly, allowing us to focus entirely on Mom’s comfort.", rating: 5 },
+                { id: "t3", name: "David L.", handle: "San Diego", testimonial: "Their empathy and logistical expertise were life-changing. We never felt alone during the process of finding the right community for Dad.", rating: 5 }
             ]}
           />
         </div>
