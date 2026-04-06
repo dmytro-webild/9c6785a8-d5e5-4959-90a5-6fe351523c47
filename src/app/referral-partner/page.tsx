@@ -44,6 +44,7 @@ export default function ReferralPartnerPage() {
             title="A Trusted Transition Partner for Senior Living Communities"
             description="We bridge the gap for families, ensuring they arrive at your community informed, prepared, and ready to call it home. Partner with Palante to streamline the admission process for both your team and new residents."
             background={{ variant: "sparkles-gradient" }}
+            useInvertedBackground={false}
           />
         </div>
 
@@ -66,6 +67,7 @@ export default function ReferralPartnerPage() {
           <ContactText
             text="Palante STS acts as an extension of your community's values, providing the bridge that turns prospects into successful long-term residents."
             background={{ variant: "plain" }}
+            useInvertedBackground={false}
           />
         </div>
 
@@ -76,6 +78,7 @@ export default function ReferralPartnerPage() {
             description="Discover how Palante STS can support your admissions goals and provide a higher standard of care for prospective families."
             buttons={[{ text: "Request a Partnership Conversation", href: "/contact" }]}
             background={{ variant: "sparkles-gradient" }}
+            useInvertedBackground={false}
           />
         </div>
 
