@@ -9,8 +9,8 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import ContactSplit from '@/components/sections/contact/ContactSplit';
-import { CheckCircle2, CalendarDays, MapPin, HandHeart } from "lucide-react";
+import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users } from "lucide-react";
+import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 
 export default function LandingPage() {
   return (
@@ -68,17 +68,18 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="lead-capture" data-section="lead-capture">
-    <ContactSplit
-        tag="Free Resource"
-        title="Free Guide: 7 Signs It’s Time to Transition Your Aging Parent"
-        description="Navigating this journey is heavy. We've compiled 7 key signs to help you gain clarity and confidence in making the right decisions for your loved one's comfort and well-being."
-        buttonText="Send Me the Guide"
-        mediaPosition="left"
-        imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024465000-63c15eu0.jpg?_wi=2"
-        imageAlt="Helpful guide visualization"
-        background={{ variant: "plain" }}
+  <div id="metric" data-section="metric">
+    <MetricCardSeven
+        title="Why Families Trust Palante"
+        description="We bring professional, human-centered coordination to the complexities of senior life transitions."
+        animationType="slide-up"
+        textboxLayout="split"
         useInvertedBackground={false}
+        metrics={[
+            { id: "trust1", value: "100%", title: "Advocacy", items: ["Single point of contact", "Emotional support", "Independent guidance"] },
+            { id: "trust2", value: "20+", title: "Years Experience", items: ["California Licensed", "DRE Certified", "Community experts"] },
+            { id: "trust3", value: "4", title: "Regions Served", items: ["Orange County", "Los Angeles", "Riverside", "San Bernardino"] }
+        ]}
     />
   </div>
 
@@ -100,17 +101,16 @@ export default function LandingPage() {
   <div id="testimonial" data-section="testimonial">
       <TestimonialCardThirteen
       showRating={true}
-      animationType="none"
-      textboxLayout="default"
-      useInvertedBackground={false}
+      animationType="slide-up"
+      textboxLayout="inline-image"
+      useInvertedBackground={true}
       testimonials={[
-        { id: "1", name: "Sarah Miller", handle: "SC, Orange", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5 },
-        { id: "2", name: "David Chen", handle: "DC, Irvine", testimonial: "The combination of real estate and placement services was exactly what we needed for Mom.", rating: 5 },
-        { id: "3", name: "Elena Rodriguez", handle: "ER, Riverside", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5 },
-        { id: "4", name: "Robert Johnson", handle: "RJ, San Bernardino", testimonial: "One point of contact for the house sale, placement, and downsizing. An absolutely seamless experience.", rating: 5 },
+        { id: "1", name: "Sarah Miller", handle: "SC, Orange", testimonial: "Palante STS handled everything with such care and expertise. I don't know what we would have done without them.", rating: 5, icon: MessageSquareHeart },
+        { id: "2", name: "David Chen", handle: "DC, Irvine", testimonial: "The combination of real estate and placement services was exactly what we needed for Mom.", rating: 5, icon: Award },
+        { id: "3", name: "Elena Rodriguez", handle: "ER, Riverside", testimonial: "Kind, patient, and deeply knowledgeable about senior communities. They truly made 'pa'lante' feel real.", rating: 5, icon: Users },
       ]}
-      title="What Our Families Say"
-      description="See why families count on Palante Senior Transition Specialists for expert, compassionate care during major life transitions."
+      title="Trust Built Through Results"
+      description="From before to after, we stay by your side until your family is settled and secure."
     />
   </div>
 
