@@ -3,10 +3,9 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
-import { Home, Heart, MoveDown } from "lucide-react";
+import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
+import { LayoutList } from "lucide-react";
 
 export default function ServicesPage() {
   return (
@@ -37,42 +36,28 @@ export default function ServicesPage() {
         </div>
 
         <div id="feature" data-section="feature">
-          <FeatureCardThree
-            gridVariant="three-columns-all-equal-width"
+          <FeatureCardMedia
             animationType="slide-up"
             textboxLayout="default"
             useInvertedBackground={false}
-            title="Comprehensive Services"
-            description="One trusted professional handles the home sale, senior placement, and the physical move across Orange, LA, Riverside, and San Bernardino counties."
+            title="We Handle the Hardest Parts of the Transition — So You Don’t Have To"
+            description="We understand the emotional and practical overwhelm of life transitions. Our goal is to relieve that pressure by serving as your single partner through every phase of the journey."
             features={[
-              { id: "1", title: "Real Estate Services", description: "Professional home sale coordination with compassion.", imageSrc: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop" },
-              { id: "2", title: "Senior Placement", description: "Expert assistance finding the right community.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775317032776-p7d3t0ng.jpg" },
-              { id: "3", title: "Transition Management", description: "Full support through downsizing and moving including set up and organization.", imageSrc: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" },
+              { id: "1", title: "Transition Planning", description: "A clear, compassionate roadmap tailored to your family's unique emotional and practical needs.", tag: "Planning" },
+              { id: "2", title: "Downsizing", description: "Thoughtful, professional guidance through sorting, distributing, and organizing decades of belongings.", tag: "Logistics" },
+              { id: "3", title: "Move Management", description: "End-to-end logistics handling so you can focus on being present for your loved one.", tag: "Management" },
+              { id: "4", title: "Senior Living Support", description: "Personalized vetting and placement guidance to find the right community for a secure future.", tag: "Placement" },
+              { id: "5", title: "Home Sale Coordination", description: "Expert real estate service focused on getting top dollar with minimal stress for your family.", tag: "Real Estate" },
+              { id: "6", title: "Family Communication", description: "Facilitating honest, productive conversations among family members during sensitive decision-making.", tag: "Support" }
             ]}
-          />
-        </div>
-
-        <div id="metric" data-section="metric">
-          <MetricCardThree
-            animationType="slide-up"
-            textboxLayout="default"
-            useInvertedBackground={false}
-            title=""
-            description=""
-            metrics={[
-              { id: "m1", icon: Home, title: "Real Estate", value: "4 Counties, 1 Expert" },
-              { id: "m2", icon: Heart, title: "Placement", value: "Free to Families — Senior Placement at $0 Cost" },
-              { id: "m3", icon: MoveDown, title: "Management", value: "Downsizing • Packing • Move Day • New Home Setup" },
-            ]}
-            valueClassName="text-sm md:text-base"
           />
         </div>
 
         <div id="footer" data-section="footer">
           <FooterLogoEmphasis
             columns={[
-              { items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] },
-              { items: [{ label: "≡ (213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
+              { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] },
+              { title: "Legal & Contact", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
             ]}
             logoText="Palante STS"
           />
