@@ -9,7 +9,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users, Building2 } from "lucide-react";
+import { CheckCircle2, CalendarDays, MapPin, HandHeart, MessageSquareHeart, Award, Users } from "lucide-react";
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import FeatureCardNineteen from '@/components/sections/feature/FeatureCardNineteen';
 
@@ -55,7 +55,7 @@ export default function LandingPage() {
       ]}
       buttons={[
         { text: "Book a Free Consultation", href: "/contact" },
-        { text: "Get the Free Home Safety Checklist", href: "/resources" },
+        { text: "Get the Free Home Safety Checklist", href: "/resources" }
       ]}
       avatarText="Trusted by families across SoCal"
       className="py-20"
@@ -149,7 +149,7 @@ export default function LandingPage() {
         tag="Get In Touch"
         title="Start Your Gentle Transition Today"
         description="We're here to listen, support, and handle the heavy lifting. Reach out whenever you're ready—we'll guide you through this, step by step."
-        buttons={[{ text: "Schedule My Free Consultation", href: "/contact" }]
+        buttons={[{ text: "Schedule My Free Consultation", href: "/contact" }]}
         background={{ variant: "sparkles-gradient" }}
         useInvertedBackground={false}
       />
