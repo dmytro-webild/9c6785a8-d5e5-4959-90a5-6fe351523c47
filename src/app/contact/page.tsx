@@ -40,6 +40,7 @@ export default function ContactPage() {
             title="Let's Start Your Journey Together"
             description="Reach out to us for a compassionate, no-pressure conversation about your family's needs."
             background={{ variant: "sparkles-gradient" }}
+            useInvertedBackground={false}
           />
         </div>
 
@@ -48,6 +49,8 @@ export default function ContactPage() {
                 tag="Connect With Us"
                 title="We're Ready to Help"
                 description="Fill out the form below, and we'll be in touch shortly to schedule your consultation."
+                background={{ variant: "sparkles-gradient" }}
+                useInvertedBackground={false}
             />
         </div>
 
