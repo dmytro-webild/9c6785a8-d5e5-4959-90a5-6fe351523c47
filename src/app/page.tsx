@@ -85,6 +85,7 @@ export default function HomePage() {
             showRating={true}
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
             testimonials={[
                 { id: "t1", name: "Sarah J.", handle: "Los Angeles", testimonial: "Ronnie took the stress out of our transition. His real estate expertise combined with his deep knowledge of senior communities was a godsend.", rating: 5 }
             ]}
@@ -96,6 +97,7 @@ export default function HomePage() {
             sideTitle="Frequently Asked Questions"
             sideDescription="Everything you need to know about starting your consultation."
             faqsAnimation="slide-up"
+            useInvertedBackground={false}
             faqs={[
               { id: "1", title: "Is the consultation really free?", content: "Yes, our initial 20-minute discovery consultation is entirely free and no-obligation. We just want to see how we can best support your family." },
               { id: "2", title: "How do I book?", content: "Click the button above or visit our contact page to pick a time that works for you." }
