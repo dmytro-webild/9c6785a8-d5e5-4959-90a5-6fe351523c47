@@ -80,7 +80,8 @@ export default function LandingPage() {
             { id: "trust1", value: "100%", title: "Advocacy", items: ["Single point of contact", "Emotional support", "Independent guidance"] },
             { id: "trust2", value: "20+", title: "Years Experience", items: ["California Licensed", "DRE Certified", "Community experts"] },
             { id: "trust3", value: "4", title: "Regions Served", items: ["Orange County", "Los Angeles", "Riverside", "San Bernardino"] }
-        ]}
+        ]
+      }
     />
   </div>
 
