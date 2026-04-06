@@ -75,13 +75,13 @@ export default function LandingPage() {
       description="We combine professional real estate expertise with deep senior care knowledge to advocate for your family."
       features={[
         {
-          id: "t1",          title: "Real Estate Expertise",          descriptions: ["20 years of experience ensuring top dollar for family homes.", "Full service listing support."],
+          id: "t1",          title: "Real Estate Expertise",          description: ["20 years of experience ensuring top dollar for family homes.", "Full service listing support."],
         },
         {
-          id: "t2",          title: "Personalized Advocacy",          descriptions: ["We personally tour communities to ensure they meet our standard.", "Always acting in the senior's best interest."],
+          id: "t2",          title: "Personalized Advocacy",          description: ["We personally tour communities to ensure they meet our standard.", "Always acting in the senior's best interest."],
         },
         {
-          id: "t3",          title: "Emotional Support",          descriptions: ["We provide the compassionate guidance that families need.", "Available to facilitate family conversations."],
+          id: "t3",          title: "Emotional Support",          description: ["We provide the compassionate guidance that families need.", "Available to facilitate family conversations."],
         }
       ]}
       titleSegments={[{ type: 'text', content: 'Why Families Trust Palante' }]
