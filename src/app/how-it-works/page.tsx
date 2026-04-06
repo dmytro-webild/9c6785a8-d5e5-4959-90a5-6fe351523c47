@@ -30,7 +30,6 @@ export default function HowItWorksPage() {
               { name: "About", id: "/about" },
               { name: "Contact", id: "/contact" }
             ]}
-            logoText="Palante STS"
           />
         </div>
 
@@ -54,8 +53,7 @@ export default function HowItWorksPage() {
               { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
               { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Contact", href: "/contact" }] }
             ]}
-            bottomLeftText="© 2025 Palante STS"
-            bottomRightText="All rights reserved."
+            copyrightText="© 2025 Palante STS. All rights reserved."
           />
         </div>
       </ReactLenis>
