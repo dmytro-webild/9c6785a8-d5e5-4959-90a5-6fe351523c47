@@ -33,7 +33,8 @@ export default function ServicesPage() {
               { name: "Services", id: "/services" },
               { name: "About", id: "/about" },
               { name: "Resources", id: "/resources" },
-              { name: "Contact", id: "/contact" }
+              { name: "Contact", id: "/contact" },
+              { name: "Partner", id: "/referral-partner" }
             ]}
             brandName="Palante STS"
             button={{ text: "Get Started", href: "/contact" }}
@@ -118,7 +119,7 @@ export default function ServicesPage() {
             imageSrc="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800"
             columns={[
               { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }] },
-              { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
+              { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Contact", href: "/contact" }, { label: "Referral Partner", href: "/referral-partner" }] }
             ]}
           />
         </div>
