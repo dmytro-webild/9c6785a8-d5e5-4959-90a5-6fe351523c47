@@ -43,7 +43,6 @@ export default function AboutPage() {
             description={[
                 "Founded by Ronnie Konishi after personal experience navigating a family transition, Palante STS was born from the belief that moving forward is not just a logistical necessity—it's an emotional journey that deserves to be honored.",                "We approach every family story with empathy and deep local expertise. Our mission is to bridge the gap between where you are and where you need to be, ensuring every step feels supported and dignified.",                "With over 20 years of real estate experience and a compassionate, hands-on approach, we remove the burden of logistics so your family can focus on what truly matters: staying present and connected."
             ]}
-            textboxLayout="split"
             useInvertedBackground={false}
             className="py-24"
           />
