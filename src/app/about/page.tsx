@@ -29,6 +29,7 @@ export default function AboutPage() {
                     { name: "Contact", id: "/contact" }
                 ]}
                 brandName="Palante STS"
+                button={{ text: "Get Started" }}
             />
         </div>
 
