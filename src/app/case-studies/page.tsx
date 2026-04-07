@@ -42,6 +42,7 @@ export default function CaseStudiesPage() {
             gridVariant="two-columns-alternating-heights"
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
             features={[
               { id: "c1", title: "From Family Home to Assisted Living", description: "Managing a complex sale and logistics for a long-time homeowner with limited mobility.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024899412-2vvj9muh.jpg" },
               { id: "c2", title: "The Multi-State Downsizing", description: "Coordination across regions to move a family estate efficiently.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024899413-sat65gaf.jpg" }
