@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
+import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import TextBox from '@/components/Textbox';
 import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
@@ -26,18 +26,14 @@ export default function ServicesPage() {
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
-          <NavbarLayoutFloatingInline
+          <NavbarStyleCentered
             navItems={[
               { name: "Home", id: "/" },
               { name: "How It Works", id: "/how-it-works" },
               { name: "Services", id: "/services" },
               { name: "About", id: "/about" },
-              { name: "Resources", id: "/resources" },
-              { name: "Contact", id: "/contact" },
-              { name: "Partner", id: "/referral-partner" }
+              { name: "Resources", id: "/resources" }
             ]}
-            brandName="Palante STS"
-            button={{ text: "Get Started", href: "/contact" }}
           />
         </div>
 
@@ -119,7 +115,7 @@ export default function ServicesPage() {
             imageSrc="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800"
             columns={[
               { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }] },
-              { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Contact", href: "/contact" }, { label: "Referral Partner", href: "/referral-partner" }] }
+              { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Contact", href: "/contact" }, { label: "Resources", href: "/resources" }] }
             ]}
           />
         </div>
