@@ -87,6 +87,8 @@ export default function ResourcesPage() {
         { title: "More", items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Case Studies", href: "/case-studies" }] },
         { title: "Support", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "Privacy Policy", href: "#" }] },
       ]}
+      bottomLeftText="© 2026 Palante STS"
+      bottomRightText="All Rights Reserved"
     />
   </div>
       </ReactLenis>

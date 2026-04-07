@@ -43,8 +43,8 @@ export default function CaseStudiesPage() {
             animationType="slide-up"
             textboxLayout="default"
             features={[
-              { title: "From Family Home to Assisted Living", description: "Managing a complex sale and logistics for a long-time homeowner with limited mobility.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024899412-2vvj9muh.jpg" },
-              { title: "The Multi-State Downsizing", description: "Coordination across regions to move a family estate efficiently.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024899413-sat65gaf.jpg" }
+              { id: "c1", title: "From Family Home to Assisted Living", description: "Managing a complex sale and logistics for a long-time homeowner with limited mobility.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024899412-2vvj9muh.jpg" },
+              { id: "c2", title: "The Multi-State Downsizing", description: "Coordination across regions to move a family estate efficiently.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgAzSnGoyjp2WRFEpWFU41xUOw/uploaded-1775024899413-sat65gaf.jpg" }
             ]}
           />
         </div>
@@ -56,6 +56,8 @@ export default function CaseStudiesPage() {
               { title: "More", items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Case Studies", href: "/case-studies" }] },
               { title: "Support", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "Privacy Policy", href: "#" }] },
             ]}
+            bottomLeftText="© 2026 Palante STS"
+            bottomRightText="All Rights Reserved"
           />
         </div>
       </ReactLenis>
