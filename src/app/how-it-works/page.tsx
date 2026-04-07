@@ -28,8 +28,7 @@ export default function HowItWorksPage() {
               { name: "How It Works", id: "/how-it-works" },
               { name: "Services", id: "/services" },
               { name: "About", id: "/about" },
-              { name: "Contact", id: "/contact" },
-              { name: "Partner", id: "/referral-partner" }
+              { name: "Resources", id: "/resources" }
             ]}
           />
         </div>
@@ -52,7 +51,7 @@ export default function HowItWorksPage() {
             logoText="Palante STS"
             columns={[
               { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
-              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Referral Partner", href: "/referral-partner" }, { label: "Contact", href: "/contact" }] }
+              { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }] }
             ]}
             copyrightText="© 2025 Palante STS. All rights reserved."
           />
