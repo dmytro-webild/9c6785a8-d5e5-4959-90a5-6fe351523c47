@@ -2,10 +2,11 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import TextAbout from '@/components/sections/about/TextAbout';
-import ContactCTA from '@/components/sections/contact/ContactCTA';
+import SplitAbout from '@/components/sections/about/SplitAbout';
+import ContactText from '@/components/sections/contact/ContactText';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
+import { Heart, ShieldCheck, MapPin } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -36,30 +37,35 @@ export default function AboutPage() {
         </div>
 
         <div id="about" data-section="about">
-          <TextAbout
+          <SplitAbout
             title="Compassion at the Heart of Every Transition"
-            tag="Our Story"
-            className="py-24"
+            tag="Our Commitment"
+            textboxLayout="split"
             useInvertedBackground={false}
+            description="At Palante STS, we believe a senior transition is not just a logistical move—it is an emotional journey. We serve as your steady guide, ensuring that every step is taken with grace, transparency, and a profound respect for the life your loved one has built."
+            bulletPoints={[
+                { title: "Deep Expertise", description: "Two decades of Southern California senior transition experience.", icon: MapPin },
+                { title: "Holistic Care", description: "We integrate real estate, downsizing, and placement support seamlessly.", icon: Heart },
+                { title: "Family Advocacy", description: "We act as your dedicated shield, navigating complex systems on your behalf.", icon: ShieldCheck }
+            ]}
+            className="py-24"
           />
         </div>
 
         <div id="mission" data-section="mission">
-          <TextAbout
-            title="Bridging the Gap to Your Family's Next Chapter"
-            tag="Mission"
+          <ContactText
+            text="We turn complex, overwhelming transitions into clear, dignified paths forward for families across Southern California."
+            background={{ variant: "plain" }}
             useInvertedBackground={true}
           />
         </div>
 
         <div id="contact" data-section="contact">
-            <ContactCTA
-                tag="Connect with Ronnie"
-                title="Let's Discuss Your Family's Needs"
-                description="A gentle, no-pressure conversation is the first step toward clarity and peace of mind."
+            <ContactText
+                text="Ready to take the first step toward peace of mind? Let's discuss your family's needs."
                 buttons={[{ text: "Schedule Your Private Consultation", href: "/contact" }]}
-                background={{ variant: "plain" }}
-                useInvertedBackground={true}
+                background={{ variant: "sparkles-gradient" }}
+                useInvertedBackground={false}
             />
         </div>
 
