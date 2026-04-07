@@ -2,8 +2,8 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import BlogCardOne from '@/components/sections/blog/BlogCardOne';
-import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import BlogCardTwo from '@/components/sections/blog/BlogCardTwo';
+import FooterSimple from '@/components/sections/footer/FooterSimple';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 
 export default function ResourcesPage() {
@@ -28,14 +28,15 @@ export default function ResourcesPage() {
         { name: "How It Works", id: "/how-it-works" },
         { name: "Services", id: "/services" },
         { name: "About", id: "/about" },
-        { name: "Resources", id: "/resources" }
+        { name: "Resources", id: "/resources" },
+        { name: "Case Studies", id: "/case-studies" }
       ]}
       brandName="Palante STS"
     />
   </div>
 
   <div id="blog" data-section="blog">
-      <BlogCardOne
+      <BlogCardTwo
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
@@ -80,13 +81,12 @@ export default function ResourcesPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterLogoEmphasis
+      <FooterSimple
       columns={[
-        { items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
-        { items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
-        { items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
+        { title: "Links", items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
+        { title: "More", items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Case Studies", href: "/case-studies" }] },
+        { title: "Support", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "Privacy Policy", href: "#" }] },
       ]}
-      logoText="Palante STS"
     />
   </div>
       </ReactLenis>
