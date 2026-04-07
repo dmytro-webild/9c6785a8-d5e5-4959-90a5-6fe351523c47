@@ -58,6 +58,7 @@ export default function HomePage() {
             animationType="slide-up"
             textboxLayout="split"
             useInvertedBackground={true}
+            buttons={[{ text: "Explore Our Services", href: "/services" }]}
             features={[
               { icon: Users, title: "Navigating Care Options", description: "We simplify finding the right living environment that honors your parent's unique needs." },
               { icon: HeartHandshake, title: "Emotional Advocacy", description: "We serve as a calm, compassionate voice during the stressful moments of family change." },
@@ -72,6 +73,7 @@ export default function HomePage() {
             text="Trust our 20+ years of local Southern California expertise to provide the steady guidance your family needs during this sensitive time."
             background={{ variant: "plain" }}
             useInvertedBackground={false}
+            buttons={[{ text: "Learn About Our Approach", href: "/about" }]}
           />
         </div>
 
@@ -134,7 +136,7 @@ export default function HomePage() {
             columns={[
               { title: "Navigation", items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "About", href: "/about" }] },
               { title: "Company", items: [{ label: "Resources", href: "/resources" }, { label: "Services", href: "/services" }] },
-              { title: "Support", items: [{ label: "(213) 706-0093", href: "tel:2137060093" }] }
+              { title: "Support", items: [{ label: "Contact Us", href: "/contact" }, { label: "(213) 706-0093", href: "tel:2137060093" }] }
             ]}
           />
         </div>
