@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
+import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 
 export default function ResourcesPage() {
   return (
@@ -22,16 +22,13 @@ export default function ResourcesPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarStyleApple
+      <NavbarStyleCentered
       navItems={[
         { name: "Home", id: "/" },
         { name: "How It Works", id: "/how-it-works" },
         { name: "Services", id: "/services" },
         { name: "About", id: "/about" },
-        { name: "Resources", id: "/resources" },
-        { name: "Contact", id: "/contact" },
-        { name: "Partner", id: "/referral-partner" },
-        { name: "≡ (213) 706-0093", id: "tel:2137060093" }
+        { name: "Resources", id: "/resources" }
       ]}
       brandName="Palante STS"
     />
@@ -86,8 +83,8 @@ export default function ResourcesPage() {
       <FooterLogoEmphasis
       columns={[
         { items: [{ label: "Home", href: "/" }, { label: "How It Works", href: "/how-it-works" }, { label: "Services", href: "/services" }] },
-        { items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }, { label: "Referral Partner", href: "/referral-partner" }] },
-        { items: [{ label: "≡ (213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
+        { items: [{ label: "About Us", href: "/about" }, { label: "Resources", href: "/resources" }, { label: "Contact", href: "/contact" }] },
+        { items: [{ label: "(213) 706-0093", href: "tel:2137060093" }, { label: "CA DRE# 01832704", href: "#" }, { label: "Privacy Policy", href: "#" }] },
       ]}
       logoText="Palante STS"
     />
