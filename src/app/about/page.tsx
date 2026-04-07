@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import SplitAbout from '@/components/sections/about/SplitAbout';
+import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import ContactText from '@/components/sections/contact/ContactText';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
@@ -37,16 +37,9 @@ export default function AboutPage() {
         </div>
 
         <div id="about" data-section="about">
-          <SplitAbout
-            title="Compassion at the Heart of Every Transition"
-            tag="Our Commitment"
-            textboxLayout="split"
-            useInvertedBackground={false}
-            description="At Palante STS, we believe a senior transition is not just a logistical move—it is an emotional journey. We serve as your steady guide, ensuring that every step is taken with grace, transparency, and a profound respect for the life your loved one has built."
-            bulletPoints={[
-                { title: "Deep Expertise", description: "Two decades of Southern California senior transition experience.", icon: MapPin },
-                { title: "Holistic Care", description: "We integrate real estate, downsizing, and placement support seamlessly.", icon: Heart },
-                { title: "Family Advocacy", description: "We act as your dedicated shield, navigating complex systems on your behalf.", icon: ShieldCheck }
+          <InlineImageSplitTextAbout
+            heading={[
+                { type: 'text', content: "Compassion at the Heart of Every Transition" }
             ]}
             className="py-24"
           />
